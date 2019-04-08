@@ -1,5 +1,5 @@
 # MimeTypeExtension
-Extension for FileInfo to get responding MIME-Type
+Extension for FileInfo. Returns the matching MIME type of a file.
 
 NuGet:
 https://www.nuget.org/packages/MimeTypeExtension/1.0.0
