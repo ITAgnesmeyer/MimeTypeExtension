@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
-using MimeTypeExtension;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MimeTypeExtension;
+
 
 namespace TestMimeTypeExtension
 {
