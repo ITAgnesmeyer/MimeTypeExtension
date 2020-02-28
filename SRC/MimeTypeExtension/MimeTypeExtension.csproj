@@ -4,6 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright>Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
+    <Version>1.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
 </Project>

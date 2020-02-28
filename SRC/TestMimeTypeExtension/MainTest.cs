@@ -1,8 +1,6 @@
-﻿using System;
-using System.IO;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.IO;
 using MimeTypeExtension;
-
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestMimeTypeExtension
 {
@@ -31,6 +29,22 @@ namespace TestMimeTypeExtension
             string mimeType = fi.MimeType();
             Assert.AreEqual(mimeType, "application/vnd.openxmlformats-officedocument.presentationml.presentation", "Cannot find MIME-Type for PPTX");
            
+        }
+
+        [TestMethod]
+        public void TestWasemExtension()
+        {
+            FileInfo fi = new FileInfo("test.wasm");
+            string mimeType = fi.MimeType();
+            Assert.AreEqual(mimeType, "application/wasm", "Cannot find webassembly");
+        }
+
+        [TestMethod]
+        public void TestNotFound()
+        {
+            FileInfo fi = new FileInfo("test.notfound");
+            string mimeType = fi.MimeTypeOrDefault();
+            Assert.AreEqual(mimeType, "application/octet-stream", "Cannot find default");
         }
         
     }

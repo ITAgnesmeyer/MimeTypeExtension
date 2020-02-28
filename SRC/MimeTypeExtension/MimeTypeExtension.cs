@@ -33,11 +33,38 @@ namespace MimeTypeExtension
         /// <returns>Returns the MIME-Type eg. Image/jpg</returns>
         public static string MimeType(this FileInfo input)
         {
-           string exteion = input.Extension;
-           var mimeType = _MimeTypesList.MimeTypes.Find(x=> x.Type == exteion);
+           string extension = input.Extension;
+           var mimeType = _MimeTypesList.MimeTypes.Find(x=> x.Type == extension);
             if(mimeType == null)
                 return "";
             return mimeType.Mime;
+        }
+        /// <summary>
+        /// Get the MimeType from File-Extension.
+        /// If MimeType not found you can give a default MimeType
+        /// </summary>
+        /// <param name="input">FileInfo</param>
+        /// <param name="defaultMime">Default MIME</param>
+        /// <returns>Returns the MIME-Type eg. Image/jpg</returns>
+        public static string MimeType(this FileInfo input, string defaultMime)
+        {
+            var mimeType = MimeType(input);
+            if (string.IsNullOrEmpty(mimeType))
+                mimeType = defaultMime;
+            return mimeType;
+        }
+        /// <summary>
+        /// Get the MimeType from File-Extension.
+        /// If MIME not found you can give a default MIME
+        /// If you don't give a default value the Default is:
+        /// application/octet-stream
+        /// </summary>
+        /// <param name="input">FileInfo</param>
+        /// <param name="defaultMime">Default MIME => default application/octet-stream</param>
+        /// <returns>Returns the MIME-Type eg. Image/jpg or application/octet-stream</returns>
+        public static string MimeTypeOrDefault(this FileInfo input, string defaultMime = "application/octet-stream")
+        {
+            return MimeType(input, defaultMime);
         }
     }
 }
