@@ -2,14 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Copyright>Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
+    <Copyright>Copyright (c) 2020 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
-    <AssemblyVersion>1.0.1.1</AssemblyVersion>
-    <FileVersion>1.0.1.1</FileVersion>
+    <AssemblyVersion>1.0.2.1</AssemblyVersion>
+    <FileVersion>1.0.2.1</FileVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageIcon></PackageIcon>
+    <RepositoryUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>mime-type mime mimetype http rest</PackageTags>
+    <PackageReleaseNotes>Url extension added.</PackageReleaseNotes>
+    <Authors>Dipl.-Ing.(FH) Guido Agnesmeyer</Authors>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,18 +1,20 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Net.Http;
 using System.Reflection;
 
 namespace MimeTypeExtension
 {
     public static class MimeTypeExtension
     {
-        private static MimeTypeList _MimeTypesList; 
+        private static MimeTypeList _mimeTypesList; 
         static MimeTypeExtension()
         {
             FillTypeList();
         }
         private static void FillTypeList()
         {
-            if(_MimeTypesList != null)
+            if(_mimeTypesList != null)
                 return;
 
             Assembly assembly = typeof(MimeTypeList).GetTypeInfo().Assembly;
@@ -23,9 +25,30 @@ namespace MimeTypeExtension
             {
                 jsonString = reader.ReadToEnd();
             }
-            _MimeTypesList = Newtonsoft.Json.JsonConvert.DeserializeObject<MimeTypeList>(jsonString);
+            _mimeTypesList = Newtonsoft.Json.JsonConvert.DeserializeObject<MimeTypeList>(jsonString);
 
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <returns></returns>
+        public static string MimeType(this Uri uri)
+        {
+            string path = uri.GetComponents(UriComponents.Path, UriFormat.Unescaped);
+            FileInfo fi = new FileInfo(path);
+            return fi.MimeType();
+        }
+
+       
+        public static string MimeTypeOrDefault(this Uri uri, string defaultMime = "application/octet-stream")
+        {
+            string path = uri.GetComponents(UriComponents.Path, UriFormat.Unescaped);
+            FileInfo fi = new FileInfo(path);
+            return fi.MimeTypeOrDefault(defaultMime);
+        }
+
         /// <summary>
         /// Get the MimeType from File-Extension
         /// </summary>
@@ -34,7 +57,7 @@ namespace MimeTypeExtension
         public static string MimeType(this FileInfo input)
         {
            string extension = input.Extension;
-           var mimeType = _MimeTypesList.MimeTypes.Find(x=> x.Type == extension);
+           var mimeType = _mimeTypesList.MimeTypes.Find(x=> x.Type == extension);
             if(mimeType == null)
                 return "";
             return mimeType.Mime;

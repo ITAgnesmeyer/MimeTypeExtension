@@ -1,12 +1,23 @@
 ﻿using System.IO;
 using MimeTypeExtension;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace TestMimeTypeExtension
 {
     [TestClass]
     public class MainTest
     {
+
+        [TestMethod]
+        public void TestUrl()
+        {
+            string url = "http://localhost/test.jpg";
+            Uri uri = new Uri(url);
+            string mimeType = uri.MimeType();
+            Assert.AreEqual(mimeType, "image/jpeg");
+        }
+
         [TestMethod]
         public void TestLoadExtension()
         {
