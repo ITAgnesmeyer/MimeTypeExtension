@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimeTypeExtension</name>
+    </assembly>
+    <members>
+        <member name="T:MimeTypeExtension.MimeTypeExtension">
+            <summary>
+            MIME-Type Extension for FileInfo and Url
+            </summary>
+        </member>
+        <member name="M:MimeTypeExtension.MimeTypeExtension.MimeType(System.Uri)">
+            <summary>
+            Get MimeType from URL
+            </summary>
+            <param name="uri"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MimeTypeExtension.MimeTypeExtension.MimeTypeOrDefault(System.Uri,System.String)">
+            <summary>
+            Get the MimeType from URL.
+            If MimeType not found you can give a default MimeType
+            </summary>
+            <param name="uri"></param>
+            <param name="defaultMime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MimeTypeExtension.MimeTypeExtension.MimeType(System.IO.FileInfo)">
+            <summary>
+            Get the MimeType from File-Extension
+            </summary>
+            <param name="input">FileInfo</param>
+            <returns>Returns the MIME-Type eg. Image/jpg</returns>
+        </member>
+        <member name="M:MimeTypeExtension.MimeTypeExtension.MimeType(System.IO.FileInfo,System.String)">
+            <summary>
+            Get the MimeType from File-Extension.
+            If MimeType not found you can give a default MimeType
+            </summary>
+            <param name="input">FileInfo</param>
+            <param name="defaultMime">Default MIME</param>
+            <returns>Returns the MIME-Type eg. Image/jpg</returns>
+        </member>
+        <member name="M:MimeTypeExtension.MimeTypeExtension.MimeTypeOrDefault(System.IO.FileInfo,System.String)">
+            <summary>
+            Get the MimeType from File-Extension.
+            If MIME not found you can give a default MIME
+            If you don't give a default value the Default is:
+            application/octet-stream
+            </summary>
+            <param name="input">FileInfo</param>
+            <param name="defaultMime">Default MIME => default application/octet-stream</param>
+            <returns>Returns the MIME-Type eg. Image/jpg or application/octet-stream</returns>
+        </member>
+    </members>
+</doc>

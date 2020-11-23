@@ -4,22 +4,40 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright>Copyright (c) 2020 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
-    <Version>1.0.2</Version>
+    <Version>1.0.23</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
-    <AssemblyVersion>1.0.2.1</AssemblyVersion>
-    <FileVersion>1.0.2.1</FileVersion>
+    <AssemblyVersion>1.0.22.1</AssemblyVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>mime-type mime mimetype http rest</PackageTags>
-    <PackageReleaseNotes>Url extension added.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add signature</PackageReleaseNotes>
     <Authors>Dipl.-Ing.(FH) Guido Agnesmeyer</Authors>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>MimeTypeSign.snk</AssemblyOriginatorKeyFile>
+    <NeutralLanguage />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <DocumentationFile>C:\Users\guido.local\Source\Repos\ITAgnesmeyer\MimeTypeExtension\SRC\MimeTypeExtension\MimeTypeExtension.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\guido.local\Source\Repos\ITAgnesmeyer\MimeTypeExtension\SRC\MimeTypeExtension\MimeTypeExtension.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="otherTypes.json" />
+    <None Include="D:\ResHack\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

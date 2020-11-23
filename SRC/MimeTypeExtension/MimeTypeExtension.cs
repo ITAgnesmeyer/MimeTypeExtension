@@ -1,10 +1,14 @@
 ﻿using System;
 using System.IO;
-using System.Net.Http;
 using System.Reflection;
 
 namespace MimeTypeExtension
 {
+
+    
+    /// <summary>
+    /// MIME-Type Extension for FileInfo and Url
+    /// </summary>
     public static class MimeTypeExtension
     {
         private static MimeTypeList _mimeTypesList; 
@@ -20,6 +24,8 @@ namespace MimeTypeExtension
             Assembly assembly = typeof(MimeTypeList).GetTypeInfo().Assembly;
             var names = assembly.GetManifestResourceNames();
             var stream = assembly.GetManifestResourceStream("MimeTypeExtension.otherTypes.json");
+            if (stream == null)
+                throw new FileNotFoundException("Could not load Resource");
             string jsonString = "";
             using(var reader = new StreamReader(stream))
             {
@@ -30,7 +36,7 @@ namespace MimeTypeExtension
         }
 
         /// <summary>
-        /// 
+        /// Get MimeType from URL
         /// </summary>
         /// <param name="uri"></param>
         /// <returns></returns>
@@ -41,7 +47,13 @@ namespace MimeTypeExtension
             return fi.MimeType();
         }
 
-       
+        /// <summary>
+        /// Get the MimeType from URL.
+        /// If MimeType not found you can give a default MimeType
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <param name="defaultMime"></param>
+        /// <returns></returns>
         public static string MimeTypeOrDefault(this Uri uri, string defaultMime = "application/octet-stream")
         {
             string path = uri.GetComponents(UriComponents.Path, UriFormat.Unescaped);
