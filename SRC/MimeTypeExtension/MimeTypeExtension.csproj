@@ -1,25 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Copyright>Copyright (c) 2020 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
+    <TargetFrameworks>net472;net5.0;netcoreapp3.1;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <Copyright>Copyright (c) 2021 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
-    <Version>1.0.23</Version>
+    <Version>1.0.24</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
-    <AssemblyVersion>1.0.22.1</AssemblyVersion>
+    <AssemblyVersion>1.0.24.1</AssemblyVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>mime-type mime mimetype http rest</PackageTags>
-    <PackageReleaseNotes>Add signature</PackageReleaseNotes>
+    <PackageReleaseNotes>adding
+net472, netcoreapp3.1, netstandard2.1, net5.0</PackageReleaseNotes>
     <Authors>Dipl.-Ing.(FH) Guido Agnesmeyer</Authors>
     <SignAssembly>true</SignAssembly>
     <DelaySign>false</DelaySign>
     <AssemblyOriginatorKeyFile>MimeTypeSign.snk</AssemblyOriginatorKeyFile>
     <NeutralLanguage />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <FileVersion>1.0.24.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -45,7 +47,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
