@@ -1,12 +1,13 @@
-﻿using Newtonsoft.Json;
+﻿
+using ZeroDep;
 namespace MimeTypeExtension
 {
     internal class MimeType
     {
-        [JsonProperty("type", NullValueHandling = NullValueHandling.Ignore)]
+        [Json("type")]
         public string Type { get; set; }
 
-        [JsonProperty("mime", NullValueHandling = NullValueHandling.Ignore)]
+        [Json("mime")]
         public string Mime { get; set; }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
+using ZeroDep;
+
 
 namespace MimeTypeExtension
 {
@@ -31,7 +33,10 @@ namespace MimeTypeExtension
             {
                 jsonString = reader.ReadToEnd();
             }
-            _mimeTypesList = Newtonsoft.Json.JsonConvert.DeserializeObject<MimeTypeList>(jsonString);
+
+            _mimeTypesList =
+                Json.Deserialize<MimeTypeList>(
+                    jsonString); //Newtonsoft.Json.JsonConvert.DeserializeObject<MimeTypeList>(jsonString);
 
         }
 

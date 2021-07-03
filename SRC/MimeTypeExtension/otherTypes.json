@@ -3266,7 +3266,7 @@
       },
       {
           "type": ".woff",
-          "mime": "font/x-woff"
+          "mime": "font/woff"
       },
       {
           "type": ".woff2",

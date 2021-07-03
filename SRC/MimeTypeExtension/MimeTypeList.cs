@@ -1,11 +1,14 @@
 ﻿using System.Collections;
-using Newtonsoft.Json;
+
 using System.Collections.Generic;
+using ZeroDep;
+
+
 namespace MimeTypeExtension
 {
     internal  class MimeTypeList
     {
-        [JsonProperty("mime_types", NullValueHandling = NullValueHandling.Ignore)]
+        [Json("mime_types")]
         public List<MimeType> MimeTypes { get; set; }
 
        
