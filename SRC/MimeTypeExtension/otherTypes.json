@@ -1,2784 +1,3580 @@
 {
   "mime_types": [
-    {
-      "type": ".x3d",
-      "mime": "application/vnd.hzn-3d-crossword"
-    },
-    {
-      "type": ".3gp",
-      "mime": "video/3gpp"
-    },
-    {
-      "type": ".3g2",
-      "mime": "video/3gpp2"
-    },
-    {
-      "type": ".mseq",
-      "mime": "application/vnd.mseq"
-    },
-    {
-      "type": ".pwn",
-      "mime": "application/vnd.3m.post-it-notes"
-    },
-    {
-      "type": ".plb",
-      "mime": "application/vnd.3gpp.pic-bw-large"
-    },
-    {
-      "type": ".psb",
-      "mime": "application/vnd.3gpp.pic-bw-small"
-    },
-    {
-      "type": ".pvb",
-      "mime": "application/vnd.3gpp.pic-bw-var"
-    },
-    {
-      "type": ".tcap",
-      "mime": "application/vnd.3gpp2.tcap"
-    },
-    {
-      "type": ".7z",
-      "mime": "application/x-7z-compressed"
-    },
-    {
-      "type": ".abw",
-      "mime": "application/x-abiword"
-    },
-    {
-      "type": ".ace",
-      "mime": "application/x-ace-compressed"
-    },
-    {
-      "type": ".acc",
-      "mime": "application/vnd.americandynamics.acc"
-    },
-    {
-      "type": ".acu",
-      "mime": "application/vnd.acucobol"
-    },
-    {
-      "type": ".atc",
-      "mime": "application/vnd.acucorp"
-    },
-    {
-      "type": ".adp",
-      "mime": "audio/adpcm"
-    },
-    {
-      "type": ".aab",
-      "mime": "application/x-authorware-bin"
-    },
-    {
-      "type": ".aam",
-      "mime": "application/x-authorware-map"
-    },
-    {
-      "type": ".aas",
-      "mime": "application/x-authorware-seg"
-    },
-    {
-      "type": ".air",
-      "mime": "application/vnd.adobe.air-application-installer-package+zip"
-    },
-    {
-      "type": ".swf",
-      "mime": "application/x-shockwave-flash"
-    },
-    {
-      "type": ".fxp",
-      "mime": "application/vnd.adobe.fxp"
-    },
-    {
-      "type": ".pdf",
-      "mime": "application/pdf"
-    },
-    {
-      "type": ".ppd",
-      "mime": "application/vnd.cups-ppd"
-    },
-    {
-      "type": ".dir",
-      "mime": "application/x-director"
-    },
-    {
-      "type": ".xdp",
-      "mime": "application/vnd.adobe.xdp+xml"
-    },
-    {
-      "type": ".xfdf",
-      "mime": "application/vnd.adobe.xfdf"
-    },
-    {
-      "type": ".aac",
-      "mime": "audio/x-aac"
-    },
-    {
-      "type": ".ahead",
-      "mime": "application/vnd.ahead.space"
-    },
-    {
-      "type": ".azf",
-      "mime": "application/vnd.airzip.filesecure.azf"
-    },
-    {
-      "type": ".azs",
-      "mime": "application/vnd.airzip.filesecure.azs"
-    },
-    {
-      "type": ".azw",
-      "mime": "application/vnd.amazon.ebook"
-    },
-    {
-      "type": ".ami",
-      "mime": "application/vnd.amiga.ami"
-    },
-    {
-      "type": ".N/A",
-      "mime": "application/andrew-inset"
-    },
-    {
-      "type": ".apk",
-      "mime": "application/vnd.android.package-archive"
-    },
-    {
-      "type": ".cii",
-      "mime": "application/vnd.anser-web-certificate-issue-initiation"
-    },
-    {
-      "type": ".fti",
-      "mime": "application/vnd.anser-web-funds-transfer-initiation"
-    },
-    {
-      "type": ".atx",
-      "mime": "application/vnd.antix.game-component"
-    },
-    {
-      "type": ".dmg",
-      "mime": "application/x-apple-diskimage"
-    },
-    {
-      "type": ".mpkg",
-      "mime": "application/vnd.apple.installer+xml"
-    },
-    {
-      "type": ".aw",
-      "mime": "application/applixware"
-    },
-    {
-      "type": ".les",
-      "mime": "application/vnd.hhe.lesson-player"
-    },
-    {
-      "type": ".swi",
-      "mime": "application/vnd.aristanetworks.swi"
-    },
-    {
-      "type": ".s",
-      "mime": "text/x-asm"
-    },
-    {
-      "type": ".atomcat",
-      "mime": "application/atomcat+xml"
-    },
-    {
-      "type": ".atomsvc",
-      "mime": "application/atomsvc+xml:atom"
-    },
-    {
-      "type": "..xml",
-      "mime": "application/atom+xml"
-    },
-    {
-      "type": ".ac",
-      "mime": "application/pkix-attr-cert"
-    },
-    {
-      "type": ".aif",
-      "mime": "audio/x-aiff"
-    },
-    {
-      "type": ".avi",
-      "mime": "video/x-msvideo"
-    },
-    {
-      "type": ".aep",
-      "mime": "application/vnd.audiograph"
-    },
-    {
-      "type": ".dxf",
-      "mime": "image/vnd.dxf"
-    },
-    {
-      "type": ".dwf",
-      "mime": "model/vnd.dwf"
-    },
-    {
-      "type": ".par",
-      "mime": "text/plain-bas"
-    },
-    {
-      "type": ".bcpio",
-      "mime": "application/x-bcpio"
-    },
-    {
-      "type": ".bin",
-      "mime": "application/octet-stream"
-    },
-    {
-      "type": ".bmp",
-      "mime": "image/bmp"
-    },
-    {
-      "type": ".torrent",
-      "mime": "application/x-bittorrent"
-    },
-    {
-      "type": ".cod",
-      "mime": "application/vnd.rim.cod"
-    },
-    {
-      "type": ".mpm",
-      "mime": "application/vnd.blueice.multipass"
-    },
-    {
-      "type": ".bmi",
-      "mime": "application/vnd.bmi"
-    },
-    {
-      "type": ".sh",
-      "mime": "application/x-sh"
-    },
-    {
-      "type": ".btif",
-      "mime": "image/prs.btif"
-    },
-    {
-      "type": ".rep",
-      "mime": "application/vnd.businessobjects"
-    },
-    {
-      "type": ".bz",
-      "mime": "application/x-bzip"
-    },
-    {
-      "type": ".bz2",
-      "mime": "application/x-bzip2"
-    },
-    {
-      "type": ".csh",
-      "mime": "application/x-csh"
-    },
-    {
-      "type": ".c",
-      "mime": "text/x-c"
-    },
-    {
-      "type": ".cdxml",
-      "mime": "application/vnd.chemdraw+xml"
-    },
-    {
-      "type": ".css",
-      "mime": "text/css"
-    },
-    {
-      "type": ".cdx",
-      "mime": "chemical/x-cdx"
-    },
-    {
-      "type": ".cml",
-      "mime": "chemical/x-cml"
-    },
-    {
-      "type": ".csml",
-      "mime": "chemical/x-csml"
-    },
-    {
-      "type": ".cdbcmsg",
-      "mime": "application/vnd.contact.cmsg"
-    },
-    {
-      "type": ".cla",
-      "mime": "application/vnd.claymore"
-    },
-    {
-      "type": ".c4g",
-      "mime": "application/vnd.clonk.c4group"
-    },
-    {
-      "type": ".sub",
-      "mime": "image/vnd.dvb.subtitle"
-    },
-    {
-      "type": ".cdmia",
-      "mime": "application/cdmi-capability"
-    },
-    {
-      "type": ".cdmic",
-      "mime": "application/cdmi-container"
-    },
-    {
-      "type": ".cdmid",
-      "mime": "application/cdmi-domain"
-    },
-    {
-      "type": ".cdmio",
-      "mime": "application/cdmi-object"
-    },
-    {
-      "type": ".cdmiq",
-      "mime": "application/cdmi-queue"
-    },
-    {
-      "type": ".c11amc",
-      "mime": "application/vnd.cluetrust.cartomobile-config"
-    },
-    {
-      "type": ".c11amz",
-      "mime": "application/vnd.cluetrust.cartomobile-config-pkg"
-    },
-    {
-      "type": ".ras",
-      "mime": "image/x-cmu-raster"
-    },
-    {
-      "type": ".dae",
-      "mime": "model/vnd.collada+xml"
-    },
-    {
-      "type": ".csv",
-      "mime": "text/csv"
-    },
-    {
-      "type": ".cpt",
-      "mime": "application/mac-compactpro"
-    },
-    {
-      "type": ".wmlc",
-      "mime": "application/vnd.wap.wmlc"
-    },
-    {
-      "type": ".cgm",
-      "mime": "image/cgm"
-    },
-    {
-      "type": ".ice",
-      "mime": "x-conference/x-cooltalk"
-    },
-    {
-      "type": ".cmx",
-      "mime": "image/x-cmx"
-    },
-    {
-      "type": ".xar",
-      "mime": "application/vnd.xara"
-    },
-    {
-      "type": ".cmc",
-      "mime": "application/vnd.cosmocaller"
-    },
-    {
-      "type": ".cpio",
-      "mime": "application/x-cpio"
-    },
-    {
-      "type": ".clkx",
-      "mime": "application/vnd.crick.clicker"
-    },
-    {
-      "type": ".clkk",
-      "mime": "application/vnd.crick.clicker.keyboard"
-    },
-    {
-      "type": ".clkp",
-      "mime": "application/vnd.crick.clicker.palette"
-    },
-    {
-      "type": ".clkt",
-      "mime": "application/vnd.crick.clicker.template"
-    },
-    {
-      "type": ".clkw",
-      "mime": "application/vnd.crick.clicker.wordbank"
-    },
-    {
-      "type": ".wbs",
-      "mime": "application/vnd.criticaltools.wbs+xml"
-    },
-    {
-      "type": ".cryptonote",
-      "mime": "application/vnd.rig.cryptonote"
-    },
-    {
-      "type": ".cif",
-      "mime": "chemical/x-cif"
-    },
-    {
-      "type": ".cmdf",
-      "mime": "chemical/x-cmdf"
-    },
-    {
-      "type": ".cu",
-      "mime": "application/cu-seeme"
-    },
-    {
-      "type": ".cww",
-      "mime": "application/prs.cww"
-    },
-    {
-      "type": ".curl",
-      "mime": "text/vnd.curl"
-    },
-    {
-      "type": ".dcurl",
-      "mime": "text/vnd.curl.dcurl"
-    },
-    {
-      "type": ".mcurl",
-      "mime": "text/vnd.curl.mcurl"
-    },
-    {
-      "type": ".scurl",
-      "mime": "text/vnd.curl.scurl"
-    },
-    {
-      "type": ".car",
-      "mime": "application/vnd.curl.car"
-    },
-    {
-      "type": ".pcurl",
-      "mime": "application/vnd.curl.pcurl"
-    },
-    {
-      "type": ".cmp",
-      "mime": "application/vnd.yellowriver-custom-menu"
-    },
-    {
-      "type": ".dssc",
-      "mime": "application/dssc+der"
-    },
-    {
-      "type": ".xdssc",
-      "mime": "application/dssc+xml"
-    },
-    {
-      "type": ".deb",
-      "mime": "application/x-debian-package"
-    },
-    {
-      "type": ".uva",
-      "mime": "audio/vnd.dece.audio"
-    },
-    {
-      "type": ".uvi",
-      "mime": "image/vnd.dece.graphic"
-    },
-    {
-      "type": ".uvh",
-      "mime": "video/vnd.dece.hd"
-    },
-    {
-      "type": ".uvm",
-      "mime": "video/vnd.dece.mobile"
-    },
-    {
-      "type": ".uvu",
-      "mime": "video/vnd.uvvu.mp4"
-    },
-    {
-      "type": ".uvp",
-      "mime": "video/vnd.dece.pd"
-    },
-    {
-      "type": ".uvs",
-      "mime": "video/vnd.dece.sd"
-    },
-    {
-      "type": ".uvv",
-      "mime": "video/vnd.dece.video"
-    },
-    {
-      "type": ".dvi",
-      "mime": "application/x-dvi"
-    },
-    {
-      "type": ".seed",
-      "mime": "application/vnd.fdsn.seed"
-    },
-    {
-      "type": ".dtb",
-      "mime": "application/x-dtbook+xml"
-    },
-    {
-      "type": ".res",
-      "mime": "application/x-dtbresource+xml"
-    },
-    {
-      "type": ".ait",
-      "mime": "application/vnd.dvb.ait"
-    },
-    {
-      "type": ".svc",
-      "mime": "application/vnd.dvb.service"
-    },
-    {
-      "type": ".eol",
-      "mime": "audio/vnd.digital-winds"
-    },
-    {
-      "type": ".djvu",
-      "mime": "image/vnd.djvu"
-    },
-    {
-      "type": ".dtd",
-      "mime": "application/xml-dtd"
-    },
-    {
-      "type": ".mlp",
-      "mime": "application/vnd.dolby.mlp"
-    },
-    {
-      "type": ".wad",
-      "mime": "application/x-doom"
-    },
-    {
-      "type": ".dpg",
-      "mime": "application/vnd.dpgraph"
-    },
-    {
-      "type": ".dra",
-      "mime": "audio/vnd.dra"
-    },
-    {
-      "type": ".dfac",
-      "mime": "application/vnd.dreamfactory"
-    },
-    {
-      "type": ".dts",
-      "mime": "audio/vnd.dts"
-    },
-    {
-      "type": ".dtshd",
-      "mime": "audio/vnd.dts.hd"
-    },
-    {
-      "type": ".dwg",
-      "mime": "image/vnd.dwg"
-    },
-    {
-      "type": ".geo",
-      "mime": "application/vnd.dynageo"
-    },
-    {
-      "type": ".es",
-      "mime": "application/ecmascript"
-    },
-    {
-      "type": ".mag",
-      "mime": "application/vnd.ecowin.chart"
-    },
-    {
-      "type": ".mmr",
-      "mime": "image/vnd.fujixerox.edmics-mmr"
-    },
-    {
-      "type": ".rlc",
-      "mime": "image/vnd.fujixerox.edmics-rlc"
-    },
-    {
-      "type": ".exi",
-      "mime": "application/exi"
-    },
-    {
-      "type": ".mgz",
-      "mime": "application/vnd.proteus.magazine"
-    },
-    {
-      "type": ".epub",
-      "mime": "application/epub+zip"
-    },
-    {
-      "type": ".eml",
-      "mime": "message/rfc822"
-    },
-    {
-      "type": ".nml",
-      "mime": "application/vnd.enliven"
-    },
-    {
-      "type": ".xpr",
-      "mime": "application/vnd.is-xpr"
-    },
-    {
-      "type": ".xif",
-      "mime": "image/vnd.xiff"
-    },
-    {
-      "type": ".xfdl",
-      "mime": "application/vnd.xfdl"
-    },
-    {
-      "type": ".emma",
-      "mime": "application/emma+xml"
-    },
-    {
-      "type": ".ez2",
-      "mime": "application/vnd.ezpix-album"
-    },
-    {
-      "type": ".ez3",
-      "mime": "application/vnd.ezpix-package"
-    },
-    {
-      "type": ".fst",
-      "mime": "image/vnd.fst"
-    },
-    {
-      "type": ".fvt",
-      "mime": "video/vnd.fvt"
-    },
-    {
-      "type": ".fbs",
-      "mime": "image/vnd.fastbidsheet"
-    },
-    {
-      "type": ".fe_launch",
-      "mime": "application/vnd.denovo.fcselayout-link"
-    },
-    {
-      "type": ".f4v",
-      "mime": "video/x-f4v"
-    },
-    {
-      "type": ".flv",
-      "mime": "video/x-flv"
-    },
-    {
-      "type": ".fpx",
-      "mime": "image/vnd.fpx"
-    },
-    {
-      "type": ".npx",
-      "mime": "image/vnd.net-fpx"
-    },
-    {
-      "type": ".flx",
-      "mime": "text/vnd.fmi.flexstor"
-    },
-    {
-      "type": ".fli",
-      "mime": "video/x-fli"
-    },
-    {
-      "type": ".ftc",
-      "mime": "application/vnd.fluxtime.clip"
-    },
-    {
-      "type": ".fdf",
-      "mime": "application/vnd.fdf"
-    },
-    {
-      "type": ".f",
-      "mime": "text/x-fortran"
-    },
-    {
-      "type": ".mif",
-      "mime": "application/vnd.mif"
-    },
-    {
-      "type": ".fm",
-      "mime": "application/vnd.framemaker"
-    },
-    {
-      "type": ".fh",
-      "mime": "image/x-freehand"
-    },
-    {
-      "type": ".fsc",
-      "mime": "application/vnd.fsc.weblaunch"
-    },
-    {
-      "type": ".fnc",
-      "mime": "application/vnd.frogans.fnc"
-    },
-    {
-      "type": ".ltf",
-      "mime": "application/vnd.frogans.ltf"
-    },
-    {
-      "type": ".ddd",
-      "mime": "application/vnd.fujixerox.ddd"
-    },
-    {
-      "type": ".xdw",
-      "mime": "application/vnd.fujixerox.docuworks"
-    },
-    {
-      "type": ".xbd",
-      "mime": "application/vnd.fujixerox.docuworks.binder"
-    },
-    {
-      "type": ".oas",
-      "mime": "application/vnd.fujitsu.oasys"
-    },
-    {
-      "type": ".oa2",
-      "mime": "application/vnd.fujitsu.oasys2"
-    },
-    {
-      "type": ".oa3",
-      "mime": "application/vnd.fujitsu.oasys3"
-    },
-    {
-      "type": ".fg5",
-      "mime": "application/vnd.fujitsu.oasysgp"
-    },
-    {
-      "type": ".bh2",
-      "mime": "application/vnd.fujitsu.oasysprs"
-    },
-    {
-      "type": ".spl",
-      "mime": "application/x-futuresplash"
-    },
-    {
-      "type": ".fzs",
-      "mime": "application/vnd.fuzzysheet"
-    },
-    {
-      "type": ".g3",
-      "mime": "image/g3fax"
-    },
-    {
-      "type": ".gmx",
-      "mime": "application/vnd.gmx"
-    },
-    {
-      "type": ".gtw",
-      "mime": "model/vnd.gtw"
-    },
-    {
-      "type": ".txd",
-      "mime": "application/vnd.genomatix.tuxedo"
-    },
-    {
-      "type": ".ggb",
-      "mime": "application/vnd.geogebra.file"
-    },
-    {
-      "type": ".ggt",
-      "mime": "application/vnd.geogebra.tool"
-    },
-    {
-      "type": ".gdl",
-      "mime": "model/vnd.gdl"
-    },
-    {
-      "type": ".gex",
-      "mime": "application/vnd.geometry-explorer"
-    },
-    {
-      "type": ".gxt",
-      "mime": "application/vnd.geonext"
-    },
-    {
-      "type": ".g2w",
-      "mime": "application/vnd.geoplan"
-    },
-    {
-      "type": ".g3w",
-      "mime": "application/vnd.geospace"
-    },
-    {
-      "type": ".gsf",
-      "mime": "application/x-font-ghostscript"
-    },
-    {
-      "type": ".bdf",
-      "mime": "application/x-font-bdf"
-    },
-    {
-      "type": ".gtar",
-      "mime": "application/x-gtar"
-    },
-    {
-      "type": ".texinfo",
-      "mime": "application/x-texinfo"
-    },
-    {
-      "type": ".gnumeric",
-      "mime": "application/x-gnumeric"
-    },
-    {
-      "type": ".kml",
-      "mime": "application/vnd.google-earth.kml+xml"
-    },
-    {
-      "type": ".kmz",
-      "mime": "application/vnd.google-earth.kmz"
-    },
-    {
-      "type": ".gqf",
-      "mime": "application/vnd.grafeq"
-    },
-    {
-      "type": ".gif",
-      "mime": "image/gif"
-    },
-    {
-      "type": ".gv",
-      "mime": "text/vnd.graphviz"
-    },
-    {
-      "type": ".gac",
-      "mime": "application/vnd.groove-account"
-    },
-    {
-      "type": ".ghf",
-      "mime": "application/vnd.groove-help"
-    },
-    {
-      "type": ".gim",
-      "mime": "application/vnd.groove-identity-message"
-    },
-    {
-      "type": ".grv",
-      "mime": "application/vnd.groove-injector"
-    },
-    {
-      "type": ".gtm",
-      "mime": "application/vnd.groove-tool-message"
-    },
-    {
-      "type": ".tpl",
-      "mime": "application/vnd.groove-tool-template"
-    },
-    {
-      "type": ".vcg",
-      "mime": "application/vnd.groove-vcard"
-    },
-    {
-      "type": ".h261",
-      "mime": "video/h261"
-    },
-    {
-      "type": ".h263",
-      "mime": "video/h263"
-    },
-    {
-      "type": ".h264",
-      "mime": "video/h264"
-    },
-    {
-      "type": ".hpid",
-      "mime": "application/vnd.hp-hpid"
-    },
-    {
-      "type": ".hps",
-      "mime": "application/vnd.hp-hps"
-    },
-    {
-      "type": ".hdf",
-      "mime": "application/x-hdf"
-    },
-    {
-      "type": ".rip",
-      "mime": "audio/vnd.rip"
-    },
-    {
-      "type": ".hbci",
-      "mime": "application/vnd.hbci"
-    },
-    {
-      "type": ".jlt",
-      "mime": "application/vnd.hp-jlyt"
-    },
-    {
-      "type": ".pcl",
-      "mime": "application/vnd.hp-pcl"
-    },
-    {
-      "type": ".hpgl",
-      "mime": "application/vnd.hp-hpgl"
-    },
-    {
-      "type": ".hvs",
-      "mime": "application/vnd.yamaha.hv-script"
-    },
-    {
-      "type": ".hvd",
-      "mime": "application/vnd.yamaha.hv-dic"
-    },
-    {
-      "type": ".hvp",
-      "mime": "application/vnd.yamaha.hv-voice"
-    },
-    {
-      "type": ".sfd-hdstx",
-      "mime": "application/vnd.hydrostatix.sof-data"
-    },
-    {
-      "type": ".stk",
-      "mime": "application/hyperstudio"
-    },
-    {
-      "type": ".hal",
-      "mime": "application/vnd.hal+xml"
-    },
-    {
-      "type": ".html",
-      "mime": "text/html"
-    },
-    {
-      "type": ".htm",
-      "mime": "text/html"
-    },
-    {
-      "type": ".htmls",
-      "mime": "text/html"
-    },
-    {
-      "type": ".htt",
-      "mime": "text/webviewhtml"
-    },
-    {
-      "type": ".htt",
-      "mime": "text/webviewhtml"
-    },
-    {
-      "type": ".htx",
-      "mime": "text/html"
-    },
-    {
-      "type": ".irm",
-      "mime": "application/vnd.ibm.rights-management"
-    },
-    {
-      "type": ".sc",
-      "mime": "application/vnd.ibm.secure-container"
-    },
-    {
-      "type": ".ics",
-      "mime": "text/calendar"
-    },
-    {
-      "type": ".icc",
-      "mime": "application/vnd.iccprofile"
-    },
-    {
-      "type": ".ico",
-      "mime": "image/x-icon"
-    },
-    {
-      "type": ".igl",
-      "mime": "application/vnd.igloader"
-    },
-    {
-      "type": ".ief",
-      "mime": "image/ief"
-    },
-    {
-      "type": ".ivp",
-      "mime": "application/vnd.immervision-ivp"
-    },
-    {
-      "type": ".ivu",
-      "mime": "application/vnd.immervision-ivu"
-    },
-    {
-      "type": ".rif",
-      "mime": "application/reginfo+xml"
-    },
-    {
-      "type": ".3dml",
-      "mime": "text/vnd.in3d.3dml"
-    },
-    {
-      "type": ".spot",
-      "mime": "text/vnd.in3d.spot"
-    },
-    {
-      "type": ".igs",
-      "mime": "model/iges"
-    },
-    {
-      "type": ".i2g",
-      "mime": "application/vnd.intergeo"
-    },
-    {
-      "type": ".cdy",
-      "mime": "application/vnd.cinderella"
-    },
-    {
-      "type": ".xpw",
-      "mime": "application/vnd.intercon.formnet"
-    },
-    {
-      "type": ".fcs",
-      "mime": "application/vnd.isac.fcs"
-    },
-    {
-      "type": ".ipfix",
-      "mime": "application/ipfix"
-    },
-    {
-      "type": ".cer",
-      "mime": "application/pkix-cert"
-    },
-    {
-      "type": ".pki",
-      "mime": "application/pkixcmp"
-    },
-    {
-      "type": ".crl",
-      "mime": "application/pkix-crl"
-    },
-    {
-      "type": ".pkipath",
-      "mime": "application/pkix-pkipath"
-    },
-    {
-      "type": ".igm",
-      "mime": "application/vnd.insors.igm"
-    },
-    {
-      "type": ".rcprofile",
-      "mime": "application/vnd.ipunplugged.rcprofile"
-    },
-    {
-      "type": ".irp",
-      "mime": "application/vnd.irepository.package+xml"
-    },
-    {
-      "type": ".jad",
-      "mime": "text/vnd.sun.j2me.app-descriptor"
-    },
-    {
-      "type": ".jar",
-      "mime": "application/java-archive"
-    },
-    {
-      "type": ".class",
-      "mime": "application/java-vm"
-    },
-    {
-      "type": ".jnlp",
-      "mime": "application/x-java-jnlp-file"
-    },
-    {
-      "type": ".ser",
-      "mime": "application/java-serialized-object"
-    },
-    {
-      "type": ".java",
-      "mime": "text/x-java-source,java"
-    },
-    {
-      "type": ".js",
-      "mime": "application/javascript"
-    },
-    {
-      "type": ".json",
-      "mime": "application/json"
-    },
-    {
-      "type": ".joda",
-      "mime": "application/vnd.joost.joda-archive"
-    },
-    {
-      "type": ".jpm",
-      "mime": "video/jpm"
-    },
-    {
-      "type": ".jpeg",
-      "mime": "image/jpeg"
-    },
-    {
-      "type": ".jpg",
-      "mime": "image/jpeg"
-    },
-    {
-      "type": ".pjpeg",
-      "mime": "image/pjpeg"
-    },
-    {
-      "type": ".jpgv",
-      "mime": "video/jpeg"
-    },
-    {
-      "type": ".ktz",
-      "mime": "application/vnd.kahootz"
-    },
-    {
-      "type": ".mmd",
-      "mime": "application/vnd.chipnuts.karaoke-mmd"
-    },
-    {
-      "type": ".karbon",
-      "mime": "application/vnd.kde.karbon"
-    },
-    {
-      "type": ".chrt",
-      "mime": "application/vnd.kde.kchart"
-    },
-    {
-      "type": ".kfo",
-      "mime": "application/vnd.kde.kformula"
-    },
-    {
-      "type": ".flw",
-      "mime": "application/vnd.kde.kivio"
-    },
-    {
-      "type": ".kon",
-      "mime": "application/vnd.kde.kontour"
-    },
-    {
-      "type": ".kpr",
-      "mime": "application/vnd.kde.kpresenter"
-    },
-    {
-      "type": ".ksp",
-      "mime": "application/vnd.kde.kspread"
-    },
-    {
-      "type": ".kwd",
-      "mime": "application/vnd.kde.kword"
-    },
-    {
-      "type": ".htke",
-      "mime": "application/vnd.kenameaapp"
-    },
-    {
-      "type": ".kia",
-      "mime": "application/vnd.kidspiration"
-    },
-    {
-      "type": ".kne",
-      "mime": "application/vnd.kinar"
-    },
-    {
-      "type": ".sse",
-      "mime": "application/vnd.kodak-descriptor"
-    },
-    {
-      "type": ".lasxml",
-      "mime": "application/vnd.las.las+xml"
-    },
-    {
-      "type": ".latex",
-      "mime": "application/x-latex"
-    },
-    {
-      "type": ".lbd",
-      "mime": "application/vnd.llamagraphics.life-balance.desktop"
-    },
-    {
-      "type": ".lbe",
-      "mime": "application/vnd.llamagraphics.life-balance.exchange+xml"
-    },
-    {
-      "type": ".jam",
-      "mime": "application/vnd.jam"
-    },
-    {
-      "type": ".123",
-      "mime": "application/vnd.lotus-1-2-3"
-    },
-    {
-      "type": ".apr",
-      "mime": "application/vnd.lotus-approach"
-    },
-    {
-      "type": ".pre",
-      "mime": "application/vnd.lotus-freelance"
-    },
-    {
-      "type": ".nsf",
-      "mime": "application/vnd.lotus-notes"
-    },
-    {
-      "type": ".org",
-      "mime": "application/vnd.lotus-organizer"
-    },
-    {
-      "type": ".scm",
-      "mime": "application/vnd.lotus-screencam"
-    },
-    {
-      "type": ".lwp",
-      "mime": "application/vnd.lotus-wordpro"
-    },
-    {
-      "type": ".lvp",
-      "mime": "audio/vnd.lucent.voice"
-    },
-    {
-      "type": ".m3u",
-      "mime": "audio/x-mpegurl"
-    },
-    {
-      "type": ".m4v",
-      "mime": "video/x-m4v"
-    },
-    {
-      "type": ".hqx",
-      "mime": "application/mac-binhex40"
-    },
-    {
-      "type": ".portpkg",
-      "mime": "application/vnd.macports.portpkg"
-    },
-    {
-      "type": ".mgp",
-      "mime": "application/vnd.osgeo.mapguide.package"
-    },
-    {
-      "type": ".map",
-      "mime": "application/json"
-    },
-    {
-      "type": ".mrc",
-      "mime": "application/marc"
-    },
-    {
-      "type": ".mrcx",
-      "mime": "application/marcxml+xml"
-    },
-    {
-      "type": ".mxf",
-      "mime": "application/mxf"
-    },
-    {
-      "type": ".nbp",
-      "mime": "application/vnd.wolfram.player"
-    },
-    {
-      "type": ".ma",
-      "mime": "application/mathematica"
-    },
-    {
-      "type": ".mathml",
-      "mime": "application/mathml+xml"
-    },
-    {
-      "type": ".mbox",
-      "mime": "application/mbox"
-    },
-    {
-      "type": ".mc1",
-      "mime": "application/vnd.medcalcdata"
-    },
-    {
-      "type": ".mscml",
-      "mime": "application/mediaservercontrol+xml"
-    },
-    {
-      "type": ".cdkey",
-      "mime": "application/vnd.mediastation.cdkey"
-    },
-    {
-      "type": ".mwf",
-      "mime": "application/vnd.mfer"
-    },
-    {
-      "type": ".mfm",
-      "mime": "application/vnd.mfmp"
-    },
-    {
-      "type": ".msh",
-      "mime": "model/mesh"
-    },
-    {
-      "type": ".mads",
-      "mime": "application/mads+xml"
-    },
-    {
-      "type": ".mets",
-      "mime": "application/mets+xml"
-    },
-    {
-      "type": ".mods",
-      "mime": "application/mods+xml"
-    },
-    {
-      "type": ".meta4",
-      "mime": "application/metalink4+xml"
-    },
-    {
-      "type": ".mcd",
-      "mime": "application/vnd.mcd"
-    },
-    {
-      "type": ".flo",
-      "mime": "application/vnd.micrografx.flo"
-    },
-    {
-      "type": ".igx",
-      "mime": "application/vnd.micrografx.igx"
-    },
-    {
-      "type": ".es3",
-      "mime": "application/vnd.eszigno3+xml"
-    },
-    {
-      "type": ".mdb",
-      "mime": "application/x-msaccess"
-    },
-    {
-      "type": ".asf",
-      "mime": "video/x-ms-asf"
-    },
-    {
-      "type": ".exe",
-      "mime": "application/x-msdownload"
-    },
-    {
-      "type": ".cil",
-      "mime": "application/vnd.ms-artgalry"
-    },
-    {
-      "type": ".cab",
-      "mime": "application/vnd.ms-cab-compressed"
-    },
-    {
-      "type": ".ims",
-      "mime": "application/vnd.ms-ims"
-    },
-    {
-      "type": ".application",
-      "mime": "application/x-ms-application"
-    },
-    {
-      "type": ".clp",
-      "mime": "application/x-msclip"
-    },
-    {
-      "type": ".mdi",
-      "mime": "image/vnd.ms-modi"
-    },
-    {
-      "type": ".eot",
-      "mime": "application/vnd.ms-fontobject"
-    },
-    {
-      "type": ".xls",
-      "mime": "application/vnd.ms-excel"
-    },
-    {
-      "type": ".xlam",
-      "mime": "application/vnd.ms-excel.addin.macroenabled.12"
-    },
-    {
-      "type": ".xlsb",
-      "mime": "application/vnd.ms-excel.sheet.binary.macroenabled.12"
-    },
-    {
-      "type": ".xltm",
-      "mime": "application/vnd.ms-excel.template.macroenabled.12"
-    },
-    {
-      "type": ".xlsm",
-      "mime": "application/vnd.ms-excel.sheet.macroenabled.12"
-    },
-    {
-      "type": ".chm",
-      "mime": "application/vnd.ms-htmlhelp"
-    },
-    {
-      "type": ".crd",
-      "mime": "application/x-mscardfile"
-    },
-    {
-      "type": ".lrm",
-      "mime": "application/vnd.ms-lrm"
-    },
-    {
-      "type": ".mvb",
-      "mime": "application/x-msmediaview"
-    },
-    {
-      "type": ".mny",
-      "mime": "application/x-msmoney"
-    },
-    {
-      "type": ".pptx",
-      "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-    },
-    {
-      "type": ".sldx",
-      "mime": "application/vnd.openxmlformats-officedocument.presentationml.slide"
-    },
-    {
-      "type": ".ppsx",
-      "mime": "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
-    },
-    {
-      "type": ".potx",
-      "mime": "application/vnd.openxmlformats-officedocument.presentationml.template"
-    },
-    {
-      "type": ".xlsx",
-      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    },
-    {
-      "type": ".xltx",
-      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
-    },
-    {
-      "type": ".docx",
-      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    },
-    {
-      "type": ".dotx",
-      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
-    },
-    {
-      "type": ".obd",
-      "mime": "application/x-msbinder"
-    },
-    {
-      "type": ".thmx",
-      "mime": "application/vnd.ms-officetheme"
-    },
-    {
-      "type": ".onetoc",
-      "mime": "application/onenote"
-    },
-    {
-      "type": ".pya",
-      "mime": "audio/vnd.ms-playready.media.pya"
-    },
-    {
-      "type": ".pyv",
-      "mime": "video/vnd.ms-playready.media.pyv"
-    },
-    {
-      "type": ".ppt",
-      "mime": "application/vnd.ms-powerpoint"
-    },
-    {
-      "type": ".ppam",
-      "mime": "application/vnd.ms-powerpoint.addin.macroenabled.12"
-    },
-    {
-      "type": ".sldm",
-      "mime": "application/vnd.ms-powerpoint.slide.macroenabled.12"
-    },
-    {
-      "type": ".pptm",
-      "mime": "application/vnd.ms-powerpoint.presentation.macroenabled.12"
-    },
-    {
-      "type": ".ppsm",
-      "mime": "application/vnd.ms-powerpoint.slideshow.macroenabled.12"
-    },
-    {
-      "type": ".potm",
-      "mime": "application/vnd.ms-powerpoint.template.macroenabled.12"
-    },
-    {
-      "type": ".mpp",
-      "mime": "application/vnd.ms-project"
-    },
-    {
-      "type": ".pub",
-      "mime": "application/x-mspublisher"
-    },
-    {
-      "type": ".scd",
-      "mime": "application/x-msschedule"
-    },
-    {
-      "type": ".xap",
-      "mime": "application/x-silverlight-app"
-    },
-    {
-      "type": ".stl",
-      "mime": "application/vnd.ms-pki.stl"
-    },
-    {
-      "type": ".cat",
-      "mime": "application/vnd.ms-pki.seccat"
-    },
-    {
-      "type": ".vsd",
-      "mime": "application/vnd.visio"
-    },
-    {
-      "type": ".vsdx",
-      "mime": "application/vnd.visio2013"
-    },
-    {
-      "type": ".wm",
-      "mime": "video/x-ms-wm"
-    },
-    {
-      "type": ".wma",
-      "mime": "audio/x-ms-wma"
-    },
-    {
-      "type": ".wasm",
-      "mime": "application/wasm"
-    },
-    {
-      "type": ".wax",
-      "mime": "audio/x-ms-wax"
-    },
-    {
-      "type": ".wmx",
-      "mime": "video/x-ms-wmx"
-    },
-    {
-      "type": ".wmd",
-      "mime": "application/x-ms-wmd"
-    },
-    {
-      "type": ".wpl",
-      "mime": "application/vnd.ms-wpl"
-    },
-    {
-      "type": ".wmz",
-      "mime": "application/x-ms-wmz"
-    },
-    {
-      "type": ".wmv",
-      "mime": "video/x-ms-wmv"
-    },
-    {
-      "type": ".wvx",
-      "mime": "video/x-ms-wvx"
-    },
-    {
-      "type": ".wmf",
-      "mime": "application/x-msmetafile"
-    },
-    {
-      "type": ".trm",
-      "mime": "application/x-msterminal"
-    },
-    {
-      "type": ".doc",
-      "mime": "application/msword"
-    },
-    {
-      "type": ".docm",
-      "mime": "application/vnd.ms-word.document.macroenabled.12"
-    },
-    {
-      "type": ".dotm",
-      "mime": "application/vnd.ms-word.template.macroenabled.12"
-    },
-    {
-      "type": ".wri",
-      "mime": "application/x-mswrite"
-    },
-    {
-      "type": ".wps",
-      "mime": "application/vnd.ms-works"
-    },
-    {
-      "type": ".xbap",
-      "mime": "application/x-ms-xbap"
-    },
-    {
-      "type": ".xps",
-      "mime": "application/vnd.ms-xpsdocument"
-    },
-    {
-      "type": ".mid",
-      "mime": "audio/midi"
-    },
-    {
-      "type": ".mpy",
-      "mime": "application/vnd.ibm.minipay"
-    },
-    {
-      "type": ".afp",
-      "mime": "application/vnd.ibm.modcap"
-    },
-    {
-      "type": ".rms",
-      "mime": "application/vnd.jcp.javame.midlet-rms"
-    },
-    {
-      "type": ".tmo",
-      "mime": "application/vnd.tmobile-livetv"
-    },
-    {
-      "type": ".prc",
-      "mime": "application/x-mobipocket-ebook"
-    },
-    {
-      "type": ".mbk",
-      "mime": "application/vnd.mobius.mbk"
-    },
-    {
-      "type": ".dis",
-      "mime": "application/vnd.mobius.dis"
-    },
-    {
-      "type": ".plc",
-      "mime": "application/vnd.mobius.plc"
-    },
-    {
-      "type": ".mqy",
-      "mime": "application/vnd.mobius.mqy"
-    },
-    {
-      "type": ".msl",
-      "mime": "application/vnd.mobius.msl"
-    },
-    {
-      "type": ".txf",
-      "mime": "application/vnd.mobius.txf"
-    },
-    {
-      "type": ".daf",
-      "mime": "application/vnd.mobius.daf"
-    },
-    {
-      "type": ".fly",
-      "mime": "text/vnd.fly"
-    },
-    {
-      "type": ".mpc",
-      "mime": "application/vnd.mophun.certificate"
-    },
-    {
-      "type": ".mpn",
-      "mime": "application/vnd.mophun.application"
-    },
-    {
-      "type": ".mj2",
-      "mime": "video/mj2"
-    },
-    {
-      "type": ".mpga",
-      "mime": "audio/mpeg"
-    },
-    {
-      "type": ".mxu",
-      "mime": "video/vnd.mpegurl"
-    },
-    {
-      "type": ".mpeg",
-      "mime": "video/mpeg"
-    },
-    {
-      "type": ".m21",
-      "mime": "application/mp21"
-    },
-    {
-      "type": ".mp4a",
-      "mime": "audio/mp4"
-    },
-    {
-      "type": ".mp4",
-      "mime": "application/mp4"
-    },
-    {
-      "type": ".m3u8",
-      "mime": "application/vnd.apple.mpegurl"
-    },
-    {
-      "type": ".mus",
-      "mime": "application/vnd.musician"
-    },
-    {
-      "type": ".msty",
-      "mime": "application/vnd.muvee.style"
-    },
-    {
-      "type": ".mxml",
-      "mime": "application/xv+xml"
-    },
-    {
-      "type": ".ngdat",
-      "mime": "application/vnd.nokia.n-gage.data"
-    },
-    {
-      "type": ".n-gage",
-      "mime": "application/vnd.nokia.n-gage.symbian.install"
-    },
-    {
-      "type": ".ncx",
-      "mime": "application/x-dtbncx+xml"
-    },
-    {
-      "type": ".nc",
-      "mime": "application/x-netcdf"
-    },
-    {
-      "type": ".nlu",
-      "mime": "application/vnd.neurolanguage.nlu"
-    },
-    {
-      "type": ".dna",
-      "mime": "application/vnd.dna"
-    },
-    {
-      "type": ".nnd",
-      "mime": "application/vnd.noblenet-directory"
-    },
-    {
-      "type": ".nns",
-      "mime": "application/vnd.noblenet-sealer"
-    },
-    {
-      "type": ".nnw",
-      "mime": "application/vnd.noblenet-web"
-    },
-    {
-      "type": ".rpst",
-      "mime": "application/vnd.nokia.radio-preset"
-    },
-    {
-      "type": ".rpss",
-      "mime": "application/vnd.nokia.radio-presets"
-    },
-    {
-      "type": ".n3",
-      "mime": "text/n3"
-    },
-    {
-      "type": ".edm",
-      "mime": "application/vnd.novadigm.edm"
-    },
-    {
-      "type": ".edx",
-      "mime": "application/vnd.novadigm.edx"
-    },
-    {
-      "type": ".ext",
-      "mime": "application/vnd.novadigm.ext"
-    },
-    {
-      "type": ".gph",
-      "mime": "application/vnd.flographit"
-    },
-    {
-      "type": ".ecelp4800",
-      "mime": "audio/vnd.nuera.ecelp4800"
-    },
-    {
-      "type": ".ecelp7470",
-      "mime": "audio/vnd.nuera.ecelp7470"
-    },
-    {
-      "type": ".ecelp9600",
-      "mime": "audio/vnd.nuera.ecelp9600"
-    },
-    {
-      "type": ".oda",
-      "mime": "application/oda"
-    },
-    {
-      "type": ".ogx",
-      "mime": "application/ogg"
-    },
-    {
-      "type": ".oga",
-      "mime": "audio/ogg"
-    },
-    {
-      "type": ".ogv",
-      "mime": "video/ogg"
-    },
-    {
-      "type": ".dd2",
-      "mime": "application/vnd.oma.dd2+xml"
-    },
-    {
-      "type": ".oth",
-      "mime": "application/vnd.oasis.opendocument.text-web"
-    },
-    {
-      "type": ".opf",
-      "mime": "application/oebps-package+xml"
-    },
-    {
-      "type": ".qbo",
-      "mime": "application/vnd.intu.qbo"
-    },
-    {
-      "type": ".oxt",
-      "mime": "application/vnd.openofficeorg.extension"
-    },
-    {
-      "type": ".osf",
-      "mime": "application/vnd.yamaha.openscoreformat"
-    },
-    {
-      "type": ".weba",
-      "mime": "audio/webm"
-    },
-    {
-      "type": ".webm",
-      "mime": "video/webm"
-    },
-    {
-      "type": ".odc",
-      "mime": "application/vnd.oasis.opendocument.chart"
-    },
-    {
-      "type": ".otc",
-      "mime": "application/vnd.oasis.opendocument.chart-template"
-    },
-    {
-      "type": ".odb",
-      "mime": "application/vnd.oasis.opendocument.database"
-    },
-    {
-      "type": ".odf",
-      "mime": "application/vnd.oasis.opendocument.formula"
-    },
-    {
-      "type": ".odft",
-      "mime": "application/vnd.oasis.opendocument.formula-template"
-    },
-    {
-      "type": ".odg",
-      "mime": "application/vnd.oasis.opendocument.graphics"
-    },
-    {
-      "type": ".otg",
-      "mime": "application/vnd.oasis.opendocument.graphics-template"
-    },
-    {
-      "type": ".odi",
-      "mime": "application/vnd.oasis.opendocument.image"
-    },
-    {
-      "type": ".oti",
-      "mime": "application/vnd.oasis.opendocument.image-template"
-    },
-    {
-      "type": ".odp",
-      "mime": "application/vnd.oasis.opendocument.presentation"
-    },
-    {
-      "type": ".otp",
-      "mime": "application/vnd.oasis.opendocument.presentation-template"
-    },
-    {
-      "type": ".ods",
-      "mime": "application/vnd.oasis.opendocument.spreadsheet"
-    },
-    {
-      "type": ".ots",
-      "mime": "application/vnd.oasis.opendocument.spreadsheet-template"
-    },
-    {
-      "type": ".odt",
-      "mime": "application/vnd.oasis.opendocument.text"
-    },
-    {
-      "type": ".odm",
-      "mime": "application/vnd.oasis.opendocument.text-master"
-    },
-    {
-      "type": ".ott",
-      "mime": "application/vnd.oasis.opendocument.text-template"
-    },
-    {
-      "type": ".ktx",
-      "mime": "image/ktx"
-    },
-    {
-      "type": ".sxc",
-      "mime": "application/vnd.sun.xml.calc"
-    },
-    {
-      "type": ".stc",
-      "mime": "application/vnd.sun.xml.calc.template"
-    },
-    {
-      "type": ".sxd",
-      "mime": "application/vnd.sun.xml.draw"
-    },
-    {
-      "type": ".std",
-      "mime": "application/vnd.sun.xml.draw.template"
-    },
-    {
-      "type": ".sxi",
-      "mime": "application/vnd.sun.xml.impress"
-    },
-    {
-      "type": ".sti",
-      "mime": "application/vnd.sun.xml.impress.template"
-    },
-    {
-      "type": ".sxm",
-      "mime": "application/vnd.sun.xml.math"
-    },
-    {
-      "type": ".sxw",
-      "mime": "application/vnd.sun.xml.writer"
-    },
-    {
-      "type": ".sxg",
-      "mime": "application/vnd.sun.xml.writer.global"
-    },
-    {
-      "type": ".stw",
-      "mime": "application/vnd.sun.xml.writer.template"
-    },
-    {
-      "type": ".otf",
-      "mime": "application/x-font-otf"
-    },
-    {
-      "type": ".osfpvg",
-      "mime": "application/vnd.yamaha.openscoreformat.osfpvg+xml"
-    },
-    {
-      "type": ".dp",
-      "mime": "application/vnd.osgi.dp"
-    },
-    {
-      "type": ".pdb",
-      "mime": "application/vnd.palm"
-    },
-    {
-      "type": ".p",
-      "mime": "text/x-pascal"
-    },
-    {
-      "type": ".paw",
-      "mime": "application/vnd.pawaafile"
-    },
-    {
-      "type": ".pclxl",
-      "mime": "application/vnd.hp-pclxl"
-    },
-    {
-      "type": ".efif",
-      "mime": "application/vnd.picsel"
-    },
-    {
-      "type": ".pcx",
-      "mime": "image/x-pcx"
-    },
-    {
-      "type": ".psd",
-      "mime": "image/vnd.adobe.photoshop"
-    },
-    {
-      "type": ".prf",
-      "mime": "application/pics-rules"
-    },
-    {
-      "type": ".pic",
-      "mime": "image/x-pict"
-    },
-    {
-      "type": ".chat",
-      "mime": "application/x-chat"
-    },
-    {
-      "type": ".p10",
-      "mime": "application/pkcs10"
-    },
-    {
-      "type": ".p12",
-      "mime": "application/x-pkcs12"
-    },
-    {
-      "type": ".p7m",
-      "mime": "application/pkcs7-mime"
-    },
-    {
-      "type": ".p7s",
-      "mime": "application/pkcs7-signature"
-    },
-    {
-      "type": ".p7r",
-      "mime": "application/x-pkcs7-certreqresp"
-    },
-    {
-      "type": ".p7b",
-      "mime": "application/x-pkcs7-certificates"
-    },
-    {
-      "type": ".p8",
-      "mime": "application/pkcs8"
-    },
-    {
-      "type": ".plf",
-      "mime": "application/vnd.pocketlearn"
-    },
-    {
-      "type": ".pnm",
-      "mime": "image/x-portable-anymap"
-    },
-    {
-      "type": ".pbm",
-      "mime": "image/x-portable-bitmap"
-    },
-    {
-      "type": ".pcf",
-      "mime": "application/x-font-pcf"
-    },
-    {
-      "type": ".pfr",
-      "mime": "application/font-tdpfr"
-    },
-    {
-      "type": ".pgn",
-      "mime": "application/x-chess-pgn"
-    },
-    {
-      "type": ".pgm",
-      "mime": "image/x-portable-graymap"
-    },
-    {
-      "type": ".png",
-      "mime": "image/x-png"
-    },
-    {
-      "type": ".ppm",
-      "mime": "image/x-portable-pixmap"
-    },
-    {
-      "type": ".pskcxml",
-      "mime": "application/pskc+xml"
-    },
-    {
-      "type": ".pml",
-      "mime": "application/vnd.ctc-posml"
-    },
-    {
-      "type": ".ai",
-      "mime": "application/postscript"
-    },
-    {
-      "type": ".pfa",
-      "mime": "application/x-font-type1"
-    },
-    {
-      "type": ".pbd",
-      "mime": "application/vnd.powerbuilder6"
-    },
-    {
-      "type": ".pgp",
-      "mime": "application/pgp-signature"
-    },
-    {
-      "type": ".box",
-      "mime": "application/vnd.previewsystems.box"
-    },
-    {
-      "type": ".ptid",
-      "mime": "application/vnd.pvi.ptid1"
-    },
-    {
-      "type": ".pls",
-      "mime": "application/pls+xml"
-    },
-    {
-      "type": ".str",
-      "mime": "application/vnd.pg.format"
-    },
-    {
-      "type": ".ei6",
-      "mime": "application/vnd.pg.osasli"
-    },
-    {
-      "type": ".dsc",
-      "mime": "text/prs.lines.tag"
-    },
-    {
-      "type": ".psf",
-      "mime": "application/x-font-linux-psf"
-    },
-    {
-      "type": ".qps",
-      "mime": "application/vnd.publishare-delta-tree"
-    },
-    {
-      "type": ".wg",
-      "mime": "application/vnd.pmi.widget"
-    },
-    {
-      "type": ".qxd",
-      "mime": "application/vnd.quark.quarkxpress"
-    },
-    {
-      "type": ".esf",
-      "mime": "application/vnd.epson.esf"
-    },
-    {
-      "type": ".msf",
-      "mime": "application/vnd.epson.msf"
-    },
-    {
-      "type": ".ssf",
-      "mime": "application/vnd.epson.ssf"
-    },
-    {
-      "type": ".qam",
-      "mime": "application/vnd.epson.quickanime"
-    },
-    {
-      "type": ".qfx",
-      "mime": "application/vnd.intu.qfx"
-    },
-    {
-      "type": ".qt",
-      "mime": "video/quicktime"
-    },
-    {
-      "type": ".rar",
-      "mime": "application/x-rar-compressed"
-    },
-    {
-      "type": ".ram",
-      "mime": "audio/x-pn-realaudio"
-    },
-    {
-      "type": ".rmp",
-      "mime": "audio/x-pn-realaudio-plugin"
-    },
-    {
-      "type": ".rsd",
-      "mime": "application/rsd+xml"
-    },
-    {
-      "type": ".rm",
-      "mime": "application/vnd.rn-realmedia"
-    },
-    {
-      "type": ".bed",
-      "mime": "application/vnd.realvnc.bed"
-    },
-    {
-      "type": ".mxl",
-      "mime": "application/vnd.recordare.musicxml"
-    },
-    {
-      "type": ".musicxml",
-      "mime": "application/vnd.recordare.musicxml+xml"
-    },
-    {
-      "type": ".rnc",
-      "mime": "application/relax-ng-compact-syntax"
-    },
-    {
-      "type": ".rdz",
-      "mime": "application/vnd.data-vision.rdz"
-    },
-    {
-      "type": ".rdf",
-      "mime": "application/rdf+xml"
-    },
-    {
-      "type": ".rp9",
-      "mime": "application/vnd.cloanto.rp9"
-    },
-    {
-      "type": ".jisp",
-      "mime": "application/vnd.jisp"
-    },
-    {
-      "type": ".rtf",
-      "mime": "application/rtf"
-    },
-    {
-      "type": ".rtx",
-      "mime": "text/richtext"
-    },
-    {
-      "type": ".link66",
-      "mime": "application/vnd.route66.link66+xml"
-    },
-    {
-      "type": ".rss",
-      "mime": "application/rss+xml"
-    },
-    {
-      "type": ".xml",
-      "mime": "application/rss+xml"
-    },
-    {
-      "type": ".shf",
-      "mime": "application/shf+xml"
-    },
-    {
-      "type": ".st",
-      "mime": "application/vnd.sailingtracker.track"
-    },
-    {
-      "type": ".svg",
-      "mime": "image/svg+xml"
-    },
-    {
-      "type": ".sus",
-      "mime": "application/vnd.sus-calendar"
-    },
-    {
-      "type": ".sru",
-      "mime": "application/sru+xml"
-    },
-    {
-      "type": ".setpay",
-      "mime": "application/set-payment-initiation"
-    },
-    {
-      "type": ".setreg",
-      "mime": "application/set-registration-initiation"
-    },
-    {
-      "type": ".sema",
-      "mime": "application/vnd.sema"
-    },
-    {
-      "type": ".semd",
-      "mime": "application/vnd.semd"
-    },
-    {
-      "type": ".semf",
-      "mime": "application/vnd.semf"
-    },
-    {
-      "type": ".see",
-      "mime": "application/vnd.seemail"
-    },
-    {
-      "type": ".snf",
-      "mime": "application/x-font-snf"
-    },
-    {
-      "type": ".spq",
-      "mime": "application/scvp-vp-request"
-    },
-    {
-      "type": ".spp",
-      "mime": "application/scvp-vp-response"
-    },
-    {
-      "type": ".scq",
-      "mime": "application/scvp-cv-request"
-    },
-    {
-      "type": ".scs",
-      "mime": "application/scvp-cv-response"
-    },
-    {
-      "type": ".sdp",
-      "mime": "application/sdp"
-    },
-    {
-      "type": ".etx",
-      "mime": "text/x-setext"
-    },
-    {
-      "type": ".movie",
-      "mime": "video/x-sgi-movie"
-    },
-    {
-      "type": ".ifm",
-      "mime": "application/vnd.shana.informed.formdata"
-    },
-    {
-      "type": ".itp",
-      "mime": "application/vnd.shana.informed.formtemplate"
-    },
-    {
-      "type": ".iif",
-      "mime": "application/vnd.shana.informed.interchange"
-    },
-    {
-      "type": ".ipk",
-      "mime": "application/vnd.shana.informed.package"
-    },
-    {
-      "type": ".tfi",
-      "mime": "application/thraud+xml"
-    },
-    {
-      "type": ".shar",
-      "mime": "application/x-shar"
-    },
-    {
-      "type": ".rgb",
-      "mime": "image/x-rgb"
-    },
-    {
-      "type": ".slt",
-      "mime": "application/vnd.epson.salt"
-    },
-    {
-      "type": ".aso",
-      "mime": "application/vnd.accpac.simply.aso"
-    },
-    {
-      "type": ".imp",
-      "mime": "application/vnd.accpac.simply.imp"
-    },
-    {
-      "type": ".twd",
-      "mime": "application/vnd.simtech-mindmapper"
-    },
-    {
-      "type": ".csp",
-      "mime": "application/vnd.commonspace"
-    },
-    {
-      "type": ".saf",
-      "mime": "application/vnd.yamaha.smaf-audio"
-    },
-    {
-      "type": ".mmf",
-      "mime": "application/vnd.smaf"
-    },
-    {
-      "type": ".spf",
-      "mime": "application/vnd.yamaha.smaf-phrase"
-    },
-    {
-      "type": ".teacher",
-      "mime": "application/vnd.smart.teacher"
-    },
-    {
-      "type": ".svd",
-      "mime": "application/vnd.svd"
-    },
-    {
-      "type": ".rq",
-      "mime": "application/sparql-query"
-    },
-    {
-      "type": ".srx",
-      "mime": "application/sparql-results+xml"
-    },
-    {
-      "type": ".gram",
-      "mime": "application/srgs"
-    },
-    {
-      "type": ".grxml",
-      "mime": "application/srgs+xml"
-    },
-    {
-      "type": ".ssml",
-      "mime": "application/ssml+xml"
-    },
-    {
-      "type": ".skp",
-      "mime": "application/vnd.koan"
-    },
-    {
-      "type": ".sgml",
-      "mime": "text/sgml"
-    },
-    {
-      "type": ".sdc",
-      "mime": "application/vnd.stardivision.calc"
-    },
-    {
-      "type": ".sda",
-      "mime": "application/vnd.stardivision.draw"
-    },
-    {
-      "type": ".sdd",
-      "mime": "application/vnd.stardivision.impress"
-    },
-    {
-      "type": ".smf",
-      "mime": "application/vnd.stardivision.math"
-    },
-    {
-      "type": ".sdw",
-      "mime": "application/vnd.stardivision.writer"
-    },
-    {
-      "type": ".sgl",
-      "mime": "application/vnd.stardivision.writer-global"
-    },
-    {
-      "type": ".sm",
-      "mime": "application/vnd.stepmania.stepchart"
-    },
-    {
-      "type": ".sit",
-      "mime": "application/x-stuffit"
-    },
-    {
-      "type": ".sitx",
-      "mime": "application/x-stuffitx"
-    },
-    {
-      "type": ".sdkm",
-      "mime": "application/vnd.solent.sdkm+xml"
-    },
-    {
-      "type": ".xo",
-      "mime": "application/vnd.olpc-sugar"
-    },
-    {
-      "type": ".au",
-      "mime": "audio/basic"
-    },
-    {
-      "type": ".wqd",
-      "mime": "application/vnd.wqd"
-    },
-    {
-      "type": ".sis",
-      "mime": "application/vnd.symbian.install"
-    },
-    {
-      "type": ".smi",
-      "mime": "application/smil+xml"
-    },
-    {
-      "type": ".xsm",
-      "mime": "application/vnd.syncml+xml"
-    },
-    {
-      "type": ".bdm",
-      "mime": "application/vnd.syncml.dm+wbxml"
-    },
-    {
-      "type": ".xdm",
-      "mime": "application/vnd.syncml.dm+xml"
-    },
-    {
-      "type": ".sv4cpio",
-      "mime": "application/x-sv4cpio"
-    },
-    {
-      "type": ".sv4crc",
-      "mime": "application/x-sv4crc"
-    },
-    {
-      "type": ".sbml",
-      "mime": "application/sbml+xml"
-    },
-    {
-      "type": ".tsv",
-      "mime": "text/tab-separated-values"
-    },
-    {
-      "type": ".tiff",
-      "mime": "image/tiff"
-    },
-    {
-      "type": ".tao",
-      "mime": "application/vnd.tao.intent-module-archive"
-    },
-    {
-      "type": ".tar",
-      "mime": "application/x-tar"
-    },
-    {
-      "type": ".tcl",
-      "mime": "application/x-tcl"
-    },
-    {
-      "type": ".tex",
-      "mime": "application/x-tex"
-    },
-    {
-      "type": ".tfm",
-      "mime": "application/x-tex-tfm"
-    },
-    {
-      "type": ".tei",
-      "mime": "application/tei+xml"
-    },
-    {
-      "type": ".txt",
-      "mime": "text/plain"
-    },
-    {
-      "type": ".dxp",
-      "mime": "application/vnd.spotfire.dxp"
-    },
-    {
-      "type": ".sfs",
-      "mime": "application/vnd.spotfire.sfs"
-    },
-    {
-      "type": ".tsd",
-      "mime": "application/timestamped-data"
-    },
-    {
-      "type": ".tpt",
-      "mime": "application/vnd.trid.tpt"
-    },
-    {
-      "type": ".mxs",
-      "mime": "application/vnd.triscape.mxs"
-    },
-    {
-      "type": ".t",
-      "mime": "text/troff"
-    },
-    {
-      "type": ".tra",
-      "mime": "application/vnd.trueapp"
-    },
-    {
-      "type": ".ttf",
-      "mime": "application/x-font-ttf"
-    },
-    {
-      "type": ".ttl",
-      "mime": "text/turtle"
-    },
-    {
-      "type": ".umj",
-      "mime": "application/vnd.umajin"
-    },
-    {
-      "type": ".uoml",
-      "mime": "application/vnd.uoml+xml"
-    },
-    {
-      "type": ".unityweb",
-      "mime": "application/vnd.unity"
-    },
-    {
-      "type": ".ufd",
-      "mime": "application/vnd.ufdl"
-    },
-    {
-      "type": ".uri",
-      "mime": "text/uri-list"
-    },
-    {
-      "type": ".utz",
-      "mime": "application/vnd.uiq.theme"
-    },
-    {
-      "type": ".ustar",
-      "mime": "application/x-ustar"
-    },
-    {
-      "type": ".uu",
-      "mime": "text/x-uuencode"
-    },
-    {
-      "type": ".vcs",
-      "mime": "text/x-vcalendar"
-    },
-    {
-      "type": ".vcf",
-      "mime": "text/x-vcard"
-    },
-    {
-      "type": ".vcd",
-      "mime": "application/x-cdlink"
-    },
-    {
-      "type": ".vsf",
-      "mime": "application/vnd.vsf"
-    },
-    {
-      "type": ".wrl",
-      "mime": "model/vrml"
-    },
-    {
-      "type": ".vcx",
-      "mime": "application/vnd.vcx"
-    },
-    {
-      "type": ".mts",
-      "mime": "model/vnd.mts"
-    },
-    {
-      "type": ".vtu",
-      "mime": "model/vnd.vtu"
-    },
-    {
-      "type": ".vis",
-      "mime": "application/vnd.visionary"
-    },
-    {
-      "type": ".viv",
-      "mime": "video/vnd.vivo"
-    },
-    {
-      "type": ".ccxml",
-      "mime": "application/ccxml+xml,"
-    },
-    {
-      "type": ".vxml",
-      "mime": "application/voicexml+xml"
-    },
-    {
-      "type": ".src",
-      "mime": "application/x-wais-source"
-    },
-    {
-      "type": ".wbxml",
-      "mime": "application/vnd.wap.wbxml"
-    },
-    {
-      "type": ".wbmp",
-      "mime": "image/vnd.wap.wbmp"
-    },
-    {
-      "type": ".wav",
-      "mime": "audio/x-wav"
-    },
-    {
-      "type": ".davmount",
-      "mime": "application/davmount+xml"
-    },
-    {
-      "type": ".woff",
-      "mime": "application/x-font-woff"
-    },
-    {
-      "type": ".wspolicy",
-      "mime": "application/wspolicy+xml"
-    },
-    {
-      "type": ".webp",
-      "mime": "image/webp"
-    },
-    {
-      "type": ".wtb",
-      "mime": "application/vnd.webturbo"
-    },
-    {
-      "type": ".wgt",
-      "mime": "application/widget"
-    },
-    {
-      "type": ".hlp",
-      "mime": "application/winhlp"
-    },
-    {
-      "type": ".wml",
-      "mime": "text/vnd.wap.wml"
-    },
-    {
-      "type": ".wmls",
-      "mime": "text/vnd.wap.wmlscript"
-    },
-    {
-      "type": ".wmlsc",
-      "mime": "application/vnd.wap.wmlscriptc"
-    },
-    {
-      "type": ".wpd",
-      "mime": "application/vnd.wordperfect"
-    },
-    {
-      "type": ".stf",
-      "mime": "application/vnd.wt.stf"
-    },
-    {
-      "type": ".wsdl",
-      "mime": "application/wsdl+xml"
-    },
-    {
-      "type": ".xbm",
-      "mime": "image/x-xbitmap"
-    },
-    {
-      "type": ".xpm",
-      "mime": "image/x-xpixmap"
-    },
-    {
-      "type": ".xwd",
-      "mime": "image/x-xwindowdump"
-    },
-    {
-      "type": ".der",
-      "mime": "application/x-x509-ca-cert"
-    },
-    {
-      "type": ".fig",
-      "mime": "application/x-xfig"
-    },
-    {
-      "type": ".xhtml",
-      "mime": "application/xhtml+xml"
-    },
-    {
-      "type": ".xml",
-      "mime": "application/xml"
-    },
-    {
-      "type": ".xdf",
-      "mime": "application/xcap-diff+xml"
-    },
-    {
-      "type": ".xenc",
-      "mime": "application/xenc+xml"
-    },
-    {
-      "type": ".xer",
-      "mime": "application/patch-ops-error+xml"
-    },
-    {
-      "type": ".rl",
-      "mime": "application/resource-lists+xml"
-    },
-    {
-      "type": ".rs",
-      "mime": "application/rls-services+xml"
-    },
-    {
-      "type": ".rld",
-      "mime": "application/resource-lists-diff+xml"
-    },
-    {
-      "type": ".xslt",
-      "mime": "application/xslt+xml"
-    },
-    {
-      "type": ".xop",
-      "mime": "application/xop+xml"
-    },
-    {
-      "type": ".xpi",
-      "mime": "application/x-xpinstall"
-    },
-    {
-      "type": ".xspf",
-      "mime": "application/xspf+xml"
-    },
-    {
-      "type": ".xul",
-      "mime": "application/vnd.mozilla.xul+xml"
-    },
-    {
-      "type": ".xyz",
-      "mime": "chemical/x-xyz"
-    },
-    {
-      "type": ".yaml",
-      "mime": "text/yaml"
-    },
-    {
-      "type": ".yang",
-      "mime": "application/yang"
-    },
-    {
-      "type": ".yin",
-      "mime": "application/yin+xml"
-    },
-    {
-      "type": ".zir",
-      "mime": "application/vnd.zul"
-    },
-    {
-      "type": ".zip",
-      "mime": "application/zip"
-    },
-    {
-      "type": ".zmm",
-      "mime": "application/vnd.handheld-entertainment+xml"
-    },
-    {
-      "type": ".zaz",
-      "mime": "application/vnd.zzazz.deck+xml"
-    }
+      {
+          "type": "..xml",
+          "mime": "application/atom+xml"
+      },
+      {
+          "type": ".123",
+          "mime": "application/vnd.lotus-1-2-3"
+      },
+      {
+          "type": ".323",
+          "mime": "text/h323"
+      },
+      {
+          "type": ".3dml",
+          "mime": "text/vnd.in3d.3dml"
+      },
+      {
+          "type": ".3g2",
+          "mime": "video/3gpp2"
+      },
+      {
+          "type": ".3gp",
+          "mime": "video/3gpp"
+      },
+      {
+          "type": ".3gp2",
+          "mime": "video/3gpp2"
+      },
+      {
+          "type": ".3gpp",
+          "mime": "video/3gpp"
+      },
+      {
+          "type": ".7z",
+          "mime": "application/x-7z-compressed"
+      },
+      {
+          "type": ".aab",
+          "mime": "application/x-authorware-bin"
+      },
+      {
+          "type": ".aac",
+          "mime": "audio/aac"
+      },
+      {
+          "type": ".aaf",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".aam",
+          "mime": "application/x-authorware-map"
+      },
+      {
+          "type": ".aas",
+          "mime": "application/x-authorware-seg"
+      },
+      {
+          "type": ".abw",
+          "mime": "application/x-abiword"
+      },
+      {
+          "type": ".ac",
+          "mime": "application/pkix-attr-cert"
+      },
+      {
+          "type": ".aca",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".acc",
+          "mime": "application/vnd.americandynamics.acc"
+      },
+      {
+          "type": ".accdb",
+          "mime": "application/msaccess"
+      },
+      {
+          "type": ".accde",
+          "mime": "application/msaccess"
+      },
+      {
+          "type": ".accdt",
+          "mime": "application/msaccess"
+      },
+      {
+          "type": ".ace",
+          "mime": "application/x-ace-compressed"
+      },
+      {
+          "type": ".acu",
+          "mime": "application/vnd.acucobol"
+      },
+      {
+          "type": ".acx",
+          "mime": "application/internet-property-stream"
+      },
+      {
+          "type": ".adp",
+          "mime": "audio/adpcm"
+      },
+      {
+          "type": ".adt",
+          "mime": "audio/vnd.dlna.adts"
+      },
+      {
+          "type": ".adts",
+          "mime": "audio/vnd.dlna.adts"
+      },
+      {
+          "type": ".aep",
+          "mime": "application/vnd.audiograph"
+      },
+      {
+          "type": ".afm",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".afp",
+          "mime": "application/vnd.ibm.modcap"
+      },
+      {
+          "type": ".ahead",
+          "mime": "application/vnd.ahead.space"
+      },
+      {
+          "type": ".ai",
+          "mime": "application/postscript"
+      },
+      {
+          "type": ".aif",
+          "mime": "audio/x-aiff"
+      },
+      {
+          "type": ".aifc",
+          "mime": "audio/aiff"
+      },
+      {
+          "type": ".aiff",
+          "mime": "audio/aiff"
+      },
+      {
+          "type": ".air",
+          "mime": "application/vnd.adobe.air-application-installer-package+zip"
+      },
+      {
+          "type": ".ait",
+          "mime": "application/vnd.dvb.ait"
+      },
+      {
+          "type": ".ami",
+          "mime": "application/vnd.amiga.ami"
+      },
+      {
+          "type": ".apk",
+          "mime": "application/vnd.android.package-archive"
+      },
+      {
+          "type": ".appcache",
+          "mime": "text/cache-manifest"
+      },
+      {
+          "type": ".application",
+          "mime": "application/x-ms-application"
+      },
+      {
+          "type": ".apr",
+          "mime": "application/vnd.lotus-approach"
+      },
+      {
+          "type": ".arc",
+          "mime": "application/x-freearc"
+      },
+      {
+          "type": ".art",
+          "mime": "image/x-jg"
+      },
+      {
+          "type": ".asd",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".asf",
+          "mime": "video/x-ms-asf"
+      },
+      {
+          "type": ".asi",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".asm",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".aso",
+          "mime": "application/vnd.accpac.simply.aso"
+      },
+      {
+          "type": ".asr",
+          "mime": "video/x-ms-asf"
+      },
+      {
+          "type": ".asx",
+          "mime": "video/x-ms-asf"
+      },
+      {
+          "type": ".atc",
+          "mime": "application/vnd.acucorp"
+      },
+      {
+          "type": ".atom",
+          "mime": "application/atom+xml"
+      },
+      {
+          "type": ".atomcat",
+          "mime": "application/atomcat+xml"
+      },
+      {
+          "type": ".atomsvc",
+          "mime": "application/atomsvc+xml:atom"
+      },
+      {
+          "type": ".atx",
+          "mime": "application/vnd.antix.game-component"
+      },
+      {
+          "type": ".au",
+          "mime": "audio/basic"
+      },
+      {
+          "type": ".avi",
+          "mime": "video/x-msvideo"
+      },
+      {
+          "type": ".aw",
+          "mime": "application/applixware"
+      },
+      {
+          "type": ".axs",
+          "mime": "application/olescript"
+      },
+      {
+          "type": ".azf",
+          "mime": "application/vnd.airzip.filesecure.azf"
+      },
+      {
+          "type": ".azs",
+          "mime": "application/vnd.airzip.filesecure.azs"
+      },
+      {
+          "type": ".azw",
+          "mime": "application/vnd.amazon.ebook"
+      },
+      {
+          "type": ".bas",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".bcpio",
+          "mime": "application/x-bcpio"
+      },
+      {
+          "type": ".bdf",
+          "mime": "application/x-font-bdf"
+      },
+      {
+          "type": ".bdm",
+          "mime": "application/vnd.syncml.dm+wbxml"
+      },
+      {
+          "type": ".bed",
+          "mime": "application/vnd.realvnc.bed"
+      },
+      {
+          "type": ".bh2",
+          "mime": "application/vnd.fujitsu.oasysprs"
+      },
+      {
+          "type": ".bin",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".bmi",
+          "mime": "application/vnd.bmi"
+      },
+      {
+          "type": ".bmp",
+          "mime": "image/bmp"
+      },
+      {
+          "type": ".box",
+          "mime": "application/vnd.previewsystems.box"
+      },
+      {
+          "type": ".btif",
+          "mime": "image/prs.btif"
+      },
+      {
+          "type": ".bz",
+          "mime": "application/x-bzip"
+      },
+      {
+          "type": ".bz2",
+          "mime": "application/x-bzip2"
+      },
+      {
+          "type": ".c",
+          "mime": "text/x-c"
+      },
+      {
+          "type": ".c11amc",
+          "mime": "application/vnd.cluetrust.cartomobile-config"
+      },
+      {
+          "type": ".c11amz",
+          "mime": "application/vnd.cluetrust.cartomobile-config-pkg"
+      },
+      {
+          "type": ".c4g",
+          "mime": "application/vnd.clonk.c4group"
+      },
+      {
+          "type": ".cab",
+          "mime": "application/vnd.ms-cab-compressed"
+      },
+      {
+          "type": ".calx",
+          "mime": "application/vnd.ms-office.calx"
+      },
+      {
+          "type": ".car",
+          "mime": "application/vnd.curl.car"
+      },
+      {
+          "type": ".cat",
+          "mime": "application/vnd.ms-pki.seccat"
+      },
+      {
+          "type": ".ccxml",
+          "mime": "application/ccxml+xml,"
+      },
+      {
+          "type": ".cda",
+          "mime": "application/x-cdf"
+      },
+      {
+          "type": ".cdbcmsg",
+          "mime": "application/vnd.contact.cmsg"
+      },
+      {
+          "type": ".cdf",
+          "mime": "application/x-cdf"
+      },
+      {
+          "type": ".cdkey",
+          "mime": "application/vnd.mediastation.cdkey"
+      },
+      {
+          "type": ".cdmia",
+          "mime": "application/cdmi-capability"
+      },
+      {
+          "type": ".cdmic",
+          "mime": "application/cdmi-container"
+      },
+      {
+          "type": ".cdmid",
+          "mime": "application/cdmi-domain"
+      },
+      {
+          "type": ".cdmio",
+          "mime": "application/cdmi-object"
+      },
+      {
+          "type": ".cdmiq",
+          "mime": "application/cdmi-queue"
+      },
+      {
+          "type": ".cdx",
+          "mime": "chemical/x-cdx"
+      },
+      {
+          "type": ".cdxml",
+          "mime": "application/vnd.chemdraw+xml"
+      },
+      {
+          "type": ".cdy",
+          "mime": "application/vnd.cinderella"
+      },
+      {
+          "type": ".cer",
+          "mime": "application/pkix-cert"
+      },
+      {
+          "type": ".cgm",
+          "mime": "image/cgm"
+      },
+      {
+          "type": ".chat",
+          "mime": "application/x-chat"
+      },
+      {
+          "type": ".chm",
+          "mime": "application/mshelp"
+      },
+      {
+          "type": ".chrt",
+          "mime": "application/vnd.kde.kchart"
+      },
+      {
+          "type": ".cif",
+          "mime": "chemical/x-cif"
+      },
+      {
+          "type": ".cii",
+          "mime": "application/vnd.anser-web-certificate-issue-initiation"
+      },
+      {
+          "type": ".cil",
+          "mime": "application/vnd.ms-artgalry"
+      },
+      {
+          "type": ".cla",
+          "mime": "application/vnd.claymore"
+      },
+      {
+          "type": ".class",
+          "mime": "application/java-vm"
+      },
+      {
+          "type": ".clkk",
+          "mime": "application/vnd.crick.clicker.keyboard"
+      },
+      {
+          "type": ".clkp",
+          "mime": "application/vnd.crick.clicker.palette"
+      },
+      {
+          "type": ".clkt",
+          "mime": "application/vnd.crick.clicker.template"
+      },
+      {
+          "type": ".clkw",
+          "mime": "application/vnd.crick.clicker.wordbank"
+      },
+      {
+          "type": ".clkx",
+          "mime": "application/vnd.crick.clicker"
+      },
+      {
+          "type": ".clp",
+          "mime": "application/x-msclip"
+      },
+      {
+          "type": ".cmc",
+          "mime": "application/vnd.cosmocaller"
+      },
+      {
+          "type": ".cmdf",
+          "mime": "chemical/x-cmdf"
+      },
+      {
+          "type": ".cml",
+          "mime": "chemical/x-cml"
+      },
+      {
+          "type": ".cmp",
+          "mime": "application/vnd.yellowriver-custom-menu"
+      },
+      {
+          "type": ".cmx",
+          "mime": "image/x-cmx"
+      },
+      {
+          "type": ".cnf",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".cod",
+          "mime": "image/cis-cod"
+      },
+      {
+          "type": ".cpio",
+          "mime": "application/x-cpio"
+      },
+      {
+          "type": ".cpp",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".cpt",
+          "mime": "application/mac-compactpro"
+      },
+      {
+          "type": ".crd",
+          "mime": "application/x-mscardfile"
+      },
+      {
+          "type": ".crl",
+          "mime": "application/pkix-crl"
+      },
+      {
+          "type": ".crt",
+          "mime": "application/x-x509-ca-cert"
+      },
+      {
+          "type": ".cryptonote",
+          "mime": "application/vnd.rig.cryptonote"
+      },
+      {
+          "type": ".csh",
+          "mime": "application/x-csh"
+      },
+      {
+          "type": ".csh",
+          "mime": "application/x-csh"
+      },
+      {
+          "type": ".csml",
+          "mime": "chemical/x-csml"
+      },
+      {
+          "type": ".csp",
+          "mime": "application/vnd.commonspace"
+      },
+      {
+          "type": ".css",
+          "mime": "text/css"
+      },
+      {
+          "type": ".csv",
+          "mime": "text/csv"
+      },
+      {
+          "type": ".cu",
+          "mime": "application/cu-seeme"
+      },
+      {
+          "type": ".cur",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".curl",
+          "mime": "text/vnd.curl"
+      },
+      {
+          "type": ".cww",
+          "mime": "application/prs.cww"
+      },
+      {
+          "type": ".dae",
+          "mime": "model/vnd.collada+xml"
+      },
+      {
+          "type": ".daf",
+          "mime": "application/vnd.mobius.daf"
+      },
+      {
+          "type": ".davmount",
+          "mime": "application/davmount+xml"
+      },
+      {
+          "type": ".dcr",
+          "mime": "application/x-director"
+      },
+      {
+          "type": ".dcurl",
+          "mime": "text/vnd.curl.dcurl"
+      },
+      {
+          "type": ".dd2",
+          "mime": "application/vnd.oma.dd2+xml"
+      },
+      {
+          "type": ".ddd",
+          "mime": "application/vnd.fujixerox.ddd"
+      },
+      {
+          "type": ".deb",
+          "mime": "application/x-debian-package"
+      },
+      {
+          "type": ".deploy",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".der",
+          "mime": "application/x-x509-ca-cert"
+      },
+      {
+          "type": ".dfac",
+          "mime": "application/vnd.dreamfactory"
+      },
+      {
+          "type": ".dib",
+          "mime": "image/bmp"
+      },
+      {
+          "type": ".dir",
+          "mime": "application/x-director"
+      },
+      {
+          "type": ".dis",
+          "mime": "application/vnd.mobius.dis"
+      },
+      {
+          "type": ".disco",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".djvu",
+          "mime": "image/vnd.djvu"
+      },
+      {
+          "type": ".dll",
+          "mime": "application/x-msdownload"
+      },
+      {
+          "type": ".dll.config",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".dlm",
+          "mime": "text/dlm"
+      },
+      {
+          "type": ".dmg",
+          "mime": "application/x-apple-diskimage"
+      },
+      {
+          "type": ".dna",
+          "mime": "application/vnd.dna"
+      },
+      {
+          "type": ".doc",
+          "mime": "application/msword"
+      },
+      {
+          "type": ".docm",
+          "mime": "application/vnd.ms-word.document.macroEnabled.12"
+      },
+      {
+          "type": ".docx",
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      {
+          "type": ".dot",
+          "mime": "application/msword"
+      },
+      {
+          "type": ".dotm",
+          "mime": "application/vnd.ms-word.template.macroEnabled.12"
+      },
+      {
+          "type": ".dotx",
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+      },
+      {
+          "type": ".dp",
+          "mime": "application/vnd.osgi.dp"
+      },
+      {
+          "type": ".dpg",
+          "mime": "application/vnd.dpgraph"
+      },
+      {
+          "type": ".dra",
+          "mime": "audio/vnd.dra"
+      },
+      {
+          "type": ".dsc",
+          "mime": "text/prs.lines.tag"
+      },
+      {
+          "type": ".dsp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".dssc",
+          "mime": "application/dssc+der"
+      },
+      {
+          "type": ".dtb",
+          "mime": "application/x-dtbook+xml"
+      },
+      {
+          "type": ".dtd",
+          "mime": "application/xml-dtd"
+      },
+      {
+          "type": ".dts",
+          "mime": "audio/vnd.dts"
+      },
+      {
+          "type": ".dtshd",
+          "mime": "audio/vnd.dts.hd"
+      },
+      {
+          "type": ".dvi",
+          "mime": "application/x-dvi"
+      },
+      {
+          "type": ".dvr-ms",
+          "mime": "video/x-ms-dvr"
+      },
+      {
+          "type": ".dwf",
+          "mime": "drawing/x-dwf"
+      },
+      {
+          "type": ".dwg",
+          "mime": "image/vnd.dwg"
+      },
+      {
+          "type": ".dwp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".dxf",
+          "mime": "image/vnd.dxf"
+      },
+      {
+          "type": ".dxp",
+          "mime": "application/vnd.spotfire.dxp"
+      },
+      {
+          "type": ".dxr",
+          "mime": "application/x-director"
+      },
+      {
+          "type": ".ecelp4800",
+          "mime": "audio/vnd.nuera.ecelp4800"
+      },
+      {
+          "type": ".ecelp7470",
+          "mime": "audio/vnd.nuera.ecelp7470"
+      },
+      {
+          "type": ".ecelp9600",
+          "mime": "audio/vnd.nuera.ecelp9600"
+      },
+      {
+          "type": ".edm",
+          "mime": "application/vnd.novadigm.edm"
+      },
+      {
+          "type": ".edx",
+          "mime": "application/vnd.novadigm.edx"
+      },
+      {
+          "type": ".efif",
+          "mime": "application/vnd.picsel"
+      },
+      {
+          "type": ".ei6",
+          "mime": "application/vnd.pg.osasli"
+      },
+      {
+          "type": ".eml",
+          "mime": "message/rfc822"
+      },
+      {
+          "type": ".emma",
+          "mime": "application/emma+xml"
+      },
+      {
+          "type": ".emz",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".eol",
+          "mime": "audio/vnd.digital-winds"
+      },
+      {
+          "type": ".eot",
+          "mime": "application/vnd.ms-fontobject"
+      },
+      {
+          "type": ".eps",
+          "mime": "application/postscript"
+      },
+      {
+          "type": ".epub",
+          "mime": "application/epub+zip"
+      },
+      {
+          "type": ".es",
+          "mime": "application/ecmascript"
+      },
+      {
+          "type": ".es3",
+          "mime": "application/vnd.eszigno3+xml"
+      },
+      {
+          "type": ".esd",
+          "mime": "application/vnd.ms-cab-compressed"
+      },
+      {
+          "type": ".esf",
+          "mime": "application/vnd.epson.esf"
+      },
+      {
+          "type": ".etx",
+          "mime": "text/x-setext"
+      },
+      {
+          "type": ".evy",
+          "mime": "application/envoy"
+      },
+      {
+          "type": ".exe",
+          "mime": "application/x-msdownload"
+      },
+      {
+          "type": ".exe.config",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".exi",
+          "mime": "application/exi"
+      },
+      {
+          "type": ".ext",
+          "mime": "application/vnd.novadigm.ext"
+      },
+      {
+          "type": ".ez2",
+          "mime": "application/vnd.ezpix-album"
+      },
+      {
+          "type": ".ez3",
+          "mime": "application/vnd.ezpix-package"
+      },
+      {
+          "type": ".f",
+          "mime": "text/x-fortran"
+      },
+      {
+          "type": ".f4v",
+          "mime": "video/x-f4v"
+      },
+      {
+          "type": ".fbs",
+          "mime": "image/vnd.fastbidsheet"
+      },
+      {
+          "type": ".fcs",
+          "mime": "application/vnd.isac.fcs"
+      },
+      {
+          "type": ".fdf",
+          "mime": "application/vnd.fdf"
+      },
+      {
+          "type": ".fe_launch",
+          "mime": "application/vnd.denovo.fcselayout-link"
+      },
+      {
+          "type": ".fg5",
+          "mime": "application/vnd.fujitsu.oasysgp"
+      },
+      {
+          "type": ".fh",
+          "mime": "image/x-freehand"
+      },
+      {
+          "type": ".fif",
+          "mime": "image/fif"
+      },
+      {
+          "type": ".fig",
+          "mime": "application/x-xfig"
+      },
+      {
+          "type": ".fla",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".fli",
+          "mime": "video/x-fli"
+      },
+      {
+          "type": ".flo",
+          "mime": "application/vnd.micrografx.flo"
+      },
+      {
+          "type": ".flr",
+          "mime": "x-world/x-vrml"
+      },
+      {
+          "type": ".flv",
+          "mime": "video/x-flv"
+      },
+      {
+          "type": ".flw",
+          "mime": "application/vnd.kde.kivio"
+      },
+      {
+          "type": ".flx",
+          "mime": "text/vnd.fmi.flexstor"
+      },
+      {
+          "type": ".fly",
+          "mime": "text/vnd.fly"
+      },
+      {
+          "type": ".fm",
+          "mime": "application/vnd.framemaker"
+      },
+      {
+          "type": ".fnc",
+          "mime": "application/vnd.frogans.fnc"
+      },
+      {
+          "type": ".fpx",
+          "mime": "image/vnd.fpx"
+      },
+      {
+          "type": ".fsc",
+          "mime": "application/vnd.fsc.weblaunch"
+      },
+      {
+          "type": ".fst",
+          "mime": "image/vnd.fst"
+      },
+      {
+          "type": ".ftc",
+          "mime": "application/vnd.fluxtime.clip"
+      },
+      {
+          "type": ".fti",
+          "mime": "application/vnd.anser-web-funds-transfer-initiation"
+      },
+      {
+          "type": ".fvt",
+          "mime": "video/vnd.fvt"
+      },
+      {
+          "type": ".fxp",
+          "mime": "application/vnd.adobe.fxp"
+      },
+      {
+          "type": ".fzs",
+          "mime": "application/vnd.fuzzysheet"
+      },
+      {
+          "type": ".g2w",
+          "mime": "application/vnd.geoplan"
+      },
+      {
+          "type": ".g3",
+          "mime": "image/g3fax"
+      },
+      {
+          "type": ".g3w",
+          "mime": "application/vnd.geospace"
+      },
+      {
+          "type": ".gac",
+          "mime": "application/vnd.groove-account"
+      },
+      {
+          "type": ".gdl",
+          "mime": "model/vnd.gdl"
+      },
+      {
+          "type": ".geo",
+          "mime": "application/vnd.dynageo"
+      },
+      {
+          "type": ".gex",
+          "mime": "application/vnd.geometry-explorer"
+      },
+      {
+          "type": ".ggb",
+          "mime": "application/vnd.geogebra.file"
+      },
+      {
+          "type": ".ggt",
+          "mime": "application/vnd.geogebra.tool"
+      },
+      {
+          "type": ".ghf",
+          "mime": "application/vnd.groove-help"
+      },
+      {
+          "type": ".gif",
+          "mime": "image/gif"
+      },
+      {
+          "type": ".gim",
+          "mime": "application/vnd.groove-identity-message"
+      },
+      {
+          "type": ".glb",
+          "mime": "model/gltf-binary"
+      },
+      {
+          "type": ".gmx",
+          "mime": "application/vnd.gmx"
+      },
+      {
+          "type": ".gnumeric",
+          "mime": "application/x-gnumeric"
+      },
+      {
+          "type": ".gph",
+          "mime": "application/vnd.flographit"
+      },
+      {
+          "type": ".gqf",
+          "mime": "application/vnd.grafeq"
+      },
+      {
+          "type": ".gram",
+          "mime": "application/srgs"
+      },
+      {
+          "type": ".grv",
+          "mime": "application/vnd.groove-injector"
+      },
+      {
+          "type": ".grxml",
+          "mime": "application/srgs+xml"
+      },
+      {
+          "type": ".gsf",
+          "mime": "application/x-font-ghostscript"
+      },
+      {
+          "type": ".gtar",
+          "mime": "application/x-gtar"
+      },
+      {
+          "type": ".gtm",
+          "mime": "application/vnd.groove-tool-message"
+      },
+      {
+          "type": ".gtw",
+          "mime": "model/vnd.gtw"
+      },
+      {
+          "type": ".gv",
+          "mime": "text/vnd.graphviz"
+      },
+      {
+          "type": ".gxt",
+          "mime": "application/vnd.geonext"
+      },
+      {
+          "type": ".gz",
+          "mime": "application/x-gzip"
+      },
+      {
+          "type": ".h",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".h261",
+          "mime": "video/h261"
+      },
+      {
+          "type": ".h263",
+          "mime": "video/h263"
+      },
+      {
+          "type": ".h264",
+          "mime": "video/h264"
+      },
+      {
+          "type": ".hal",
+          "mime": "application/vnd.hal+xml"
+      },
+      {
+          "type": ".hbci",
+          "mime": "application/vnd.hbci"
+      },
+      {
+          "type": ".hdf",
+          "mime": "application/x-hdf"
+      },
+      {
+          "type": ".hdml",
+          "mime": "text/x-hdml"
+      },
+      {
+          "type": ".hhc",
+          "mime": "application/x-oleobject"
+      },
+      {
+          "type": ".hhk",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".hhp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".hlp",
+          "mime": "application/mshelp"
+      },
+      {
+          "type": ".hpgl",
+          "mime": "application/vnd.hp-hpgl"
+      },
+      {
+          "type": ".hpid",
+          "mime": "application/vnd.hp-hpid"
+      },
+      {
+          "type": ".hps",
+          "mime": "application/vnd.hp-hps"
+      },
+      {
+          "type": ".hqx",
+          "mime": "application/mac-binhex40"
+      },
+      {
+          "type": ".hta",
+          "mime": "application/hta"
+      },
+      {
+          "type": ".htc",
+          "mime": "text/x-component"
+      },
+      {
+          "type": ".htke",
+          "mime": "application/vnd.kenameaapp"
+      },
+      {
+          "type": ".htm",
+          "mime": "text/html"
+      },
+      {
+          "type": ".html",
+          "mime": "text/html"
+      },
+      {
+          "type": ".htmls",
+          "mime": "text/html"
+      },
+      {
+          "type": ".htt",
+          "mime": "text/webviewhtml"
+      },
+      {
+          "type": ".htt",
+          "mime": "text/webviewhtml"
+      },
+      {
+          "type": ".htx",
+          "mime": "text/html"
+      },
+      {
+          "type": ".hvd",
+          "mime": "application/vnd.yamaha.hv-dic"
+      },
+      {
+          "type": ".hvp",
+          "mime": "application/vnd.yamaha.hv-voice"
+      },
+      {
+          "type": ".hvs",
+          "mime": "application/vnd.yamaha.hv-script"
+      },
+      {
+          "type": ".hxt",
+          "mime": "text/html"
+      },
+      {
+          "type": ".i2g",
+          "mime": "application/vnd.intergeo"
+      },
+      {
+          "type": ".icc",
+          "mime": "application/vnd.iccprofile"
+      },
+      {
+          "type": ".ice",
+          "mime": "x-conference/x-cooltalk"
+      },
+      {
+          "type": ".ico",
+          "mime": "image/x-icon"
+      },
+      {
+          "type": ".ics",
+          "mime": "text/calendar"
+      },
+      {
+          "type": ".ief",
+          "mime": "image/ief"
+      },
+      {
+          "type": ".ifm",
+          "mime": "application/vnd.shana.informed.formdata"
+      },
+      {
+          "type": ".igl",
+          "mime": "application/vnd.igloader"
+      },
+      {
+          "type": ".igm",
+          "mime": "application/vnd.insors.igm"
+      },
+      {
+          "type": ".igs",
+          "mime": "model/iges"
+      },
+      {
+          "type": ".igx",
+          "mime": "application/vnd.micrografx.igx"
+      },
+      {
+          "type": ".iif",
+          "mime": "application/vnd.shana.informed.interchange"
+      },
+      {
+          "type": ".iii",
+          "mime": "application/x-iphone"
+      },
+      {
+          "type": ".imp",
+          "mime": "application/vnd.accpac.simply.imp"
+      },
+      {
+          "type": ".ims",
+          "mime": "application/vnd.ms-ims"
+      },
+      {
+          "type": ".inf",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".ins",
+          "mime": "application/x-internet-signup"
+      },
+      {
+          "type": ".ipfix",
+          "mime": "application/ipfix"
+      },
+      {
+          "type": ".ipk",
+          "mime": "application/vnd.shana.informed.package"
+      },
+      {
+          "type": ".irm",
+          "mime": "application/vnd.ibm.rights-management"
+      },
+      {
+          "type": ".irp",
+          "mime": "application/vnd.irepository.package+xml"
+      },
+      {
+          "type": ".isp",
+          "mime": "application/x-internet-signup"
+      },
+      {
+          "type": ".itp",
+          "mime": "application/vnd.shana.informed.formtemplate"
+      },
+      {
+          "type": ".IVF",
+          "mime": "video/x-ivf"
+      },
+      {
+          "type": ".ivp",
+          "mime": "application/vnd.immervision-ivp"
+      },
+      {
+          "type": ".ivu",
+          "mime": "application/vnd.immervision-ivu"
+      },
+      {
+          "type": ".jad",
+          "mime": "text/vnd.sun.j2me.app-descriptor"
+      },
+      {
+          "type": ".jam",
+          "mime": "application/vnd.jam"
+      },
+      {
+          "type": ".jar",
+          "mime": "application/java-archive"
+      },
+      {
+          "type": ".java",
+          "mime": "text/x-java-source,java"
+      },
+      {
+          "type": ".jck",
+          "mime": "application/liquidmotion"
+      },
+      {
+          "type": ".jcz",
+          "mime": "application/liquidmotion"
+      },
+      {
+          "type": ".jfif",
+          "mime": "image/pjpeg"
+      },
+      {
+          "type": ".jisp",
+          "mime": "application/vnd.jisp"
+      },
+      {
+          "type": ".jlt",
+          "mime": "application/vnd.hp-jlyt"
+      },
+      {
+          "type": ".jnlp",
+          "mime": "application/x-java-jnlp-file"
+      },
+      {
+          "type": ".joda",
+          "mime": "application/vnd.joost.joda-archive"
+      },
+      {
+          "type": ".jpb",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".jpe",
+          "mime": "image/jpeg"
+      },
+      {
+          "type": ".jpeg",
+          "mime": "image/jpeg"
+      },
+      {
+          "type": ".jpg",
+          "mime": "image/jpeg"
+      },
+      {
+          "type": ".jpgv",
+          "mime": "video/jpeg"
+      },
+      {
+          "type": ".jpm",
+          "mime": "video/jpm"
+      },
+      {
+          "type": ".js",
+          "mime": "application/javascript"
+      },
+      {
+          "type": ".json",
+          "mime": "application/json"
+      },
+      {
+          "type": ".jsonld",
+          "mime": "application/ld+json"
+      },
+      {
+          "type": ".jsx",
+          "mime": "text/jscript"
+      },
+      {
+          "type": ".karbon",
+          "mime": "application/vnd.kde.karbon"
+      },
+      {
+          "type": ".kfo",
+          "mime": "application/vnd.kde.kformula"
+      },
+      {
+          "type": ".kia",
+          "mime": "application/vnd.kidspiration"
+      },
+      {
+          "type": ".kml",
+          "mime": "application/vnd.google-earth.kml+xml"
+      },
+      {
+          "type": ".kmz",
+          "mime": "application/vnd.google-earth.kmz"
+      },
+      {
+          "type": ".kne",
+          "mime": "application/vnd.kinar"
+      },
+      {
+          "type": ".kon",
+          "mime": "application/vnd.kde.kontour"
+      },
+      {
+          "type": ".kpr",
+          "mime": "application/vnd.kde.kpresenter"
+      },
+      {
+          "type": ".ksp",
+          "mime": "application/vnd.kde.kspread"
+      },
+      {
+          "type": ".ktx",
+          "mime": "image/ktx"
+      },
+      {
+          "type": ".ktz",
+          "mime": "application/vnd.kahootz"
+      },
+      {
+          "type": ".kwd",
+          "mime": "application/vnd.kde.kword"
+      },
+      {
+          "type": ".lasxml",
+          "mime": "application/vnd.las.las+xml"
+      },
+      {
+          "type": ".latex",
+          "mime": "application/x-latex"
+      },
+      {
+          "type": ".lbd",
+          "mime": "application/vnd.llamagraphics.life-balance.desktop"
+      },
+      {
+          "type": ".lbe",
+          "mime": "application/vnd.llamagraphics.life-balance.exchange+xml"
+      },
+      {
+          "type": ".les",
+          "mime": "application/vnd.hhe.lesson-player"
+      },
+      {
+          "type": ".less",
+          "mime": "text/css"
+      },
+      {
+          "type": ".link66",
+          "mime": "application/vnd.route66.link66+xml"
+      },
+      {
+          "type": ".lit",
+          "mime": "application/x-ms-reader"
+      },
+      {
+          "type": ".lpk",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".lrm",
+          "mime": "application/vnd.ms-lrm"
+      },
+      {
+          "type": ".lsf",
+          "mime": "video/x-la-asf"
+      },
+      {
+          "type": ".lsx",
+          "mime": "video/x-la-asf"
+      },
+      {
+          "type": ".ltf",
+          "mime": "application/vnd.frogans.ltf"
+      },
+      {
+          "type": ".lvp",
+          "mime": "audio/vnd.lucent.voice"
+      },
+      {
+          "type": ".lwp",
+          "mime": "application/vnd.lotus-wordpro"
+      },
+      {
+          "type": ".lzh",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".m13",
+          "mime": "application/x-msmediaview"
+      },
+      {
+          "type": ".m14",
+          "mime": "application/x-msmediaview"
+      },
+      {
+          "type": ".m1v",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".m21",
+          "mime": "application/mp21"
+      },
+      {
+          "type": ".m2ts",
+          "mime": "video/vnd.dlna.mpeg-tts"
+      },
+      {
+          "type": ".m3u",
+          "mime": "audio/x-mpegurl"
+      },
+      {
+          "type": ".m3u8",
+          "mime": "application/vnd.apple.mpegurl"
+      },
+      {
+          "type": ".m4a",
+          "mime": "audio/mp4"
+      },
+      {
+          "type": ".m4v",
+          "mime": "video/mp4"
+      },
+      {
+          "type": ".ma",
+          "mime": "application/mathematica"
+      },
+      {
+          "type": ".mads",
+          "mime": "application/mads+xml"
+      },
+      {
+          "type": ".mag",
+          "mime": "application/vnd.ecowin.chart"
+      },
+      {
+          "type": ".man",
+          "mime": "application/x-troff-man"
+      },
+      {
+          "type": ".manifest",
+          "mime": "application/x-ms-manifest"
+      },
+      {
+          "type": ".map",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".mathml",
+          "mime": "application/mathml+xml"
+      },
+      {
+          "type": ".mbk",
+          "mime": "application/vnd.mobius.mbk"
+      },
+      {
+          "type": ".mbox",
+          "mime": "application/mbox"
+      },
+      {
+          "type": ".mc1",
+          "mime": "application/vnd.medcalcdata"
+      },
+      {
+          "type": ".mcd",
+          "mime": "application/vnd.mcd"
+      },
+      {
+          "type": ".mcurl",
+          "mime": "text/vnd.curl.mcurl"
+      },
+      {
+          "type": ".mdb",
+          "mime": "application/x-msaccess"
+      },
+      {
+          "type": ".mdi",
+          "mime": "image/vnd.ms-modi"
+      },
+      {
+          "type": ".mdp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".me",
+          "mime": "application/x-troff-me"
+      },
+      {
+          "type": ".meta4",
+          "mime": "application/metalink4+xml"
+      },
+      {
+          "type": ".mets",
+          "mime": "application/mets+xml"
+      },
+      {
+          "type": ".mfm",
+          "mime": "application/vnd.mfmp"
+      },
+      {
+          "type": ".mgp",
+          "mime": "application/vnd.osgeo.mapguide.package"
+      },
+      {
+          "type": ".mgz",
+          "mime": "application/vnd.proteus.magazine"
+      },
+      {
+          "type": ".mht",
+          "mime": "message/rfc822"
+      },
+      {
+          "type": ".mhtml",
+          "mime": "message/rfc822"
+      },
+      {
+          "type": ".mid",
+          "mime": "audio/x-midi"
+      },
+      {
+          "type": ".midi",
+          "mime": "audio/x-midi"
+      },
+      {
+          "type": ".mif",
+          "mime": "application/vnd.mif"
+      },
+      {
+          "type": ".mix",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".mj2",
+          "mime": "video/mj2"
+      },
+      {
+          "type": ".mjs",
+          "mime": "text/javascript"
+      },
+      {
+          "type": ".mlp",
+          "mime": "application/vnd.dolby.mlp"
+      },
+      {
+          "type": ".mmd",
+          "mime": "application/vnd.chipnuts.karaoke-mmd"
+      },
+      {
+          "type": ".mmf",
+          "mime": "application/x-smaf"
+      },
+      {
+          "type": ".mmr",
+          "mime": "image/vnd.fujixerox.edmics-mmr"
+      },
+      {
+          "type": ".mno",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".mny",
+          "mime": "application/x-msmoney"
+      },
+      {
+          "type": ".mods",
+          "mime": "application/mods+xml"
+      },
+      {
+          "type": ".mov",
+          "mime": "video/quicktime"
+      },
+      {
+          "type": ".movie",
+          "mime": "video/x-sgi-movie"
+      },
+      {
+          "type": ".mp2",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mp3",
+          "mime": "audio/mpeg"
+      },
+      {
+          "type": ".mp4",
+          "mime": "video/mp4"
+      },
+      {
+          "type": ".mp4a",
+          "mime": "audio/mp4"
+      },
+      {
+          "type": ".mp4v",
+          "mime": "video/mp4"
+      },
+      {
+          "type": ".mpa",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mpc",
+          "mime": "application/vnd.mophun.certificate"
+      },
+      {
+          "type": ".mpe",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mpeg",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mpg",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mpga",
+          "mime": "audio/mpeg"
+      },
+      {
+          "type": ".mpkg",
+          "mime": "application/vnd.apple.installer+xml"
+      },
+      {
+          "type": ".mpm",
+          "mime": "application/vnd.blueice.multipass"
+      },
+      {
+          "type": ".mpn",
+          "mime": "application/vnd.mophun.application"
+      },
+      {
+          "type": ".mpp",
+          "mime": "application/vnd.ms-project"
+      },
+      {
+          "type": ".mpv2",
+          "mime": "video/mpeg"
+      },
+      {
+          "type": ".mpy",
+          "mime": "application/vnd.ibm.minipay"
+      },
+      {
+          "type": ".mqy",
+          "mime": "application/vnd.mobius.mqy"
+      },
+      {
+          "type": ".mrc",
+          "mime": "application/marc"
+      },
+      {
+          "type": ".mrcx",
+          "mime": "application/marcxml+xml"
+      },
+      {
+          "type": ".ms",
+          "mime": "application/x-troff-ms"
+      },
+      {
+          "type": ".mscml",
+          "mime": "application/mediaservercontrol+xml"
+      },
+      {
+          "type": ".mseq",
+          "mime": "application/vnd.mseq"
+      },
+      {
+          "type": ".msf",
+          "mime": "application/vnd.epson.msf"
+      },
+      {
+          "type": ".msh",
+          "mime": "model/mesh"
+      },
+      {
+          "type": ".msi",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".msl",
+          "mime": "application/vnd.mobius.msl"
+      },
+      {
+          "type": ".mso",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".msty",
+          "mime": "application/vnd.muvee.style"
+      },
+      {
+          "type": ".mts",
+          "mime": "model/vnd.mts"
+      },
+      {
+          "type": ".mus",
+          "mime": "application/vnd.musician"
+      },
+      {
+          "type": ".musicxml",
+          "mime": "application/vnd.recordare.musicxml+xml"
+      },
+      {
+          "type": ".mvb",
+          "mime": "application/x-msmediaview"
+      },
+      {
+          "type": ".mvc",
+          "mime": "application/x-miva-compiled"
+      },
+      {
+          "type": ".mwf",
+          "mime": "application/vnd.mfer"
+      },
+      {
+          "type": ".mxf",
+          "mime": "application/mxf"
+      },
+      {
+          "type": ".mxl",
+          "mime": "application/vnd.recordare.musicxml"
+      },
+      {
+          "type": ".mxml",
+          "mime": "application/xv+xml"
+      },
+      {
+          "type": ".mxs",
+          "mime": "application/vnd.triscape.mxs"
+      },
+      {
+          "type": ".mxu",
+          "mime": "video/vnd.mpegurl"
+      },
+      {
+          "type": ".N/A",
+          "mime": "application/andrew-inset"
+      },
+      {
+          "type": ".n3",
+          "mime": "text/n3"
+      },
+      {
+          "type": ".nbp",
+          "mime": "application/vnd.wolfram.player"
+      },
+      {
+          "type": ".nc",
+          "mime": "application/x-netcdf"
+      },
+      {
+          "type": ".ncx",
+          "mime": "application/x-dtbncx+xml"
+      },
+      {
+          "type": ".n-gage",
+          "mime": "application/vnd.nokia.n-gage.symbian.install"
+      },
+      {
+          "type": ".ngdat",
+          "mime": "application/vnd.nokia.n-gage.data"
+      },
+      {
+          "type": ".nlu",
+          "mime": "application/vnd.neurolanguage.nlu"
+      },
+      {
+          "type": ".nml",
+          "mime": "application/vnd.enliven"
+      },
+      {
+          "type": ".nnd",
+          "mime": "application/vnd.noblenet-directory"
+      },
+      {
+          "type": ".nns",
+          "mime": "application/vnd.noblenet-sealer"
+      },
+      {
+          "type": ".nnw",
+          "mime": "application/vnd.noblenet-web"
+      },
+      {
+          "type": ".npx",
+          "mime": "image/vnd.net-fpx"
+      },
+      {
+          "type": ".nsc",
+          "mime": "video/x-ms-asf"
+      },
+      {
+          "type": ".nsf",
+          "mime": "application/vnd.lotus-notes"
+      },
+      {
+          "type": ".nws",
+          "mime": "message/rfc822"
+      },
+      {
+          "type": ".oa2",
+          "mime": "application/vnd.fujitsu.oasys2"
+      },
+      {
+          "type": ".oa3",
+          "mime": "application/vnd.fujitsu.oasys3"
+      },
+      {
+          "type": ".oas",
+          "mime": "application/vnd.fujitsu.oasys"
+      },
+      {
+          "type": ".obd",
+          "mime": "application/x-msbinder"
+      },
+      {
+          "type": ".ocx",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".oda",
+          "mime": "application/oda"
+      },
+      {
+          "type": ".odb",
+          "mime": "application/vnd.oasis.opendocument.database"
+      },
+      {
+          "type": ".odc",
+          "mime": "text/x-ms-odc"
+      },
+      {
+          "type": ".odf",
+          "mime": "application/vnd.oasis.opendocument.formula"
+      },
+      {
+          "type": ".odft",
+          "mime": "application/vnd.oasis.opendocument.formula-template"
+      },
+      {
+          "type": ".odg",
+          "mime": "application/vnd.oasis.opendocument.graphics"
+      },
+      {
+          "type": ".odi",
+          "mime": "application/vnd.oasis.opendocument.image"
+      },
+      {
+          "type": ".odm",
+          "mime": "application/vnd.oasis.opendocument.text-master"
+      },
+      {
+          "type": ".odp",
+          "mime": "application/vnd.oasis.opendocument.presentation"
+      },
+      {
+          "type": ".ods",
+          "mime": "application/oleobject"
+      },
+      {
+          "type": ".odt",
+          "mime": "application/vnd.oasis.opendocument.text"
+      },
+      {
+          "type": ".oga",
+          "mime": "audio/ogg"
+      },
+      {
+          "type": ".ogg",
+          "mime": "video/ogg"
+      },
+      {
+          "type": ".ogv",
+          "mime": "video/ogg"
+      },
+      {
+          "type": ".ogx",
+          "mime": "application/ogg"
+      },
+      {
+          "type": ".one",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".onea",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".onepkg",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".onetmp",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".onetoc",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".onetoc2",
+          "mime": "application/onenote"
+      },
+      {
+          "type": ".opf",
+          "mime": "application/oebps-package+xml"
+      },
+      {
+          "type": ".org",
+          "mime": "application/vnd.lotus-organizer"
+      },
+      {
+          "type": ".osdx",
+          "mime": "application/opensearchdescription+xml"
+      },
+      {
+          "type": ".osf",
+          "mime": "application/vnd.yamaha.openscoreformat"
+      },
+      {
+          "type": ".osfpvg",
+          "mime": "application/vnd.yamaha.openscoreformat.osfpvg+xml"
+      },
+      {
+          "type": ".otc",
+          "mime": "application/vnd.oasis.opendocument.chart-template"
+      },
+      {
+          "type": ".otf",
+          "mime": "font/otf"
+      },
+      {
+          "type": ".otg",
+          "mime": "application/vnd.oasis.opendocument.graphics-template"
+      },
+      {
+          "type": ".oth",
+          "mime": "application/vnd.oasis.opendocument.text-web"
+      },
+      {
+          "type": ".oti",
+          "mime": "application/vnd.oasis.opendocument.image-template"
+      },
+      {
+          "type": ".otp",
+          "mime": "application/vnd.oasis.opendocument.presentation-template"
+      },
+      {
+          "type": ".ots",
+          "mime": "application/vnd.oasis.opendocument.spreadsheet-template"
+      },
+      {
+          "type": ".ott",
+          "mime": "application/vnd.oasis.opendocument.text-template"
+      },
+      {
+          "type": ".oxt",
+          "mime": "application/vnd.openofficeorg.extension"
+      },
+      {
+          "type": ".p",
+          "mime": "text/x-pascal"
+      },
+      {
+          "type": ".p10",
+          "mime": "application/pkcs10"
+      },
+      {
+          "type": ".p12",
+          "mime": "application/x-pkcs12"
+      },
+      {
+          "type": ".p7b",
+          "mime": "application/x-pkcs7-certificates"
+      },
+      {
+          "type": ".p7c",
+          "mime": "application/pkcs7-mime"
+      },
+      {
+          "type": ".p7m",
+          "mime": "application/pkcs7-mime"
+      },
+      {
+          "type": ".p7r",
+          "mime": "application/x-pkcs7-certreqresp"
+      },
+      {
+          "type": ".p7s",
+          "mime": "application/pkcs7-signature"
+      },
+      {
+          "type": ".p8",
+          "mime": "application/pkcs8"
+      },
+      {
+          "type": ".par",
+          "mime": "text/plain-bas"
+      },
+      {
+          "type": ".paw",
+          "mime": "application/vnd.pawaafile"
+      },
+      {
+          "type": ".pbd",
+          "mime": "application/vnd.powerbuilder6"
+      },
+      {
+          "type": ".pbm",
+          "mime": "image/x-portable-bitmap"
+      },
+      {
+          "type": ".pcf",
+          "mime": "application/x-font-pcf"
+      },
+      {
+          "type": ".pcl",
+          "mime": "application/vnd.hp-pcl"
+      },
+      {
+          "type": ".pclxl",
+          "mime": "application/vnd.hp-pclxl"
+      },
+      {
+          "type": ".pcurl",
+          "mime": "application/vnd.curl.pcurl"
+      },
+      {
+          "type": ".pcx",
+          "mime": "image/x-pcx"
+      },
+      {
+          "type": ".pcz",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".pdb",
+          "mime": "application/vnd.palm"
+      },
+      {
+          "type": ".pdf",
+          "mime": "application/pdf"
+      },
+      {
+          "type": ".pfa",
+          "mime": "application/x-font-type1"
+      },
+      {
+          "type": ".pfb",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".pfm",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".pfr",
+          "mime": "application/font-tdpfr"
+      },
+      {
+          "type": ".pfx",
+          "mime": "application/x-pkcs12"
+      },
+      {
+          "type": ".pgm",
+          "mime": "image/x-portable-graymap"
+      },
+      {
+          "type": ".pgn",
+          "mime": "application/x-chess-pgn"
+      },
+      {
+          "type": ".pgp",
+          "mime": "application/pgp-signature"
+      },
+      {
+          "type": ".pic",
+          "mime": "image/x-pict"
+      },
+      {
+          "type": ".pjpeg",
+          "mime": "image/pjpeg"
+      },
+      {
+          "type": ".pki",
+          "mime": "application/pkixcmp"
+      },
+      {
+          "type": ".pkipath",
+          "mime": "application/pkix-pkipath"
+      },
+      {
+          "type": ".pko",
+          "mime": "application/vnd.ms-pki.pko"
+      },
+      {
+          "type": ".plb",
+          "mime": "application/vnd.3gpp.pic-bw-large"
+      },
+      {
+          "type": ".plc",
+          "mime": "application/vnd.mobius.plc"
+      },
+      {
+          "type": ".plf",
+          "mime": "application/vnd.pocketlearn"
+      },
+      {
+          "type": ".pls",
+          "mime": "application/pls+xml"
+      },
+      {
+          "type": ".pma",
+          "mime": "application/x-perfmon"
+      },
+      {
+          "type": ".pmc",
+          "mime": "application/x-perfmon"
+      },
+      {
+          "type": ".pml",
+          "mime": "application/x-perfmon"
+      },
+      {
+          "type": ".pmr",
+          "mime": "application/x-perfmon"
+      },
+      {
+          "type": ".pmw",
+          "mime": "application/x-perfmon"
+      },
+      {
+          "type": ".png",
+          "mime": "image/png"
+      },
+      {
+          "type": ".pnm",
+          "mime": "image/x-portable-anymap"
+      },
+      {
+          "type": ".pnz",
+          "mime": "image/png"
+      },
+      {
+          "type": ".portpkg",
+          "mime": "application/vnd.macports.portpkg"
+      },
+      {
+          "type": ".pot",
+          "mime": "application/vnd.ms-powerpoint"
+      },
+      {
+          "type": ".potm",
+          "mime": "application/vnd.ms-powerpoint.template.macroEnabled.12"
+      },
+      {
+          "type": ".potx",
+          "mime": "application/vnd.openxmlformats-officedocument.presentationml.template"
+      },
+      {
+          "type": ".ppam",
+          "mime": "application/vnd.ms-powerpoint.addin.macroEnabled.12"
+      },
+      {
+          "type": ".ppd",
+          "mime": "application/vnd.cups-ppd"
+      },
+      {
+          "type": ".ppm",
+          "mime": "image/x-portable-pixmap"
+      },
+      {
+          "type": ".pps",
+          "mime": "application/vnd.ms-powerpoint"
+      },
+      {
+          "type": ".ppsm",
+          "mime": "application/vnd.ms-powerpoint.slideshow.macroEnabled.12"
+      },
+      {
+          "type": ".ppsx",
+          "mime": "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+      },
+      {
+          "type": ".ppt",
+          "mime": "application/vnd.ms-powerpoint"
+      },
+      {
+          "type": ".pptm",
+          "mime": "application/vnd.ms-powerpoint.presentation.macroEnabled.12"
+      },
+      {
+          "type": ".pptx",
+          "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+      },
+      {
+          "type": ".prc",
+          "mime": "application/x-mobipocket-ebook"
+      },
+      {
+          "type": ".pre",
+          "mime": "application/vnd.lotus-freelance"
+      },
+      {
+          "type": ".prf",
+          "mime": "application/pics-rules"
+      },
+      {
+          "type": ".prm",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".prx",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".ps",
+          "mime": "application/postscript"
+      },
+      {
+          "type": ".psb",
+          "mime": "application/vnd.3gpp.pic-bw-small"
+      },
+      {
+          "type": ".psd",
+          "mime": "image/vnd.adobe.photoshop"
+      },
+      {
+          "type": ".psf",
+          "mime": "application/x-font-linux-psf"
+      },
+      {
+          "type": ".pskcxml",
+          "mime": "application/pskc+xml"
+      },
+      {
+          "type": ".psm",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".psp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".ptid",
+          "mime": "application/vnd.pvi.ptid1"
+      },
+      {
+          "type": ".pub",
+          "mime": "application/x-mspublisher"
+      },
+      {
+          "type": ".pvb",
+          "mime": "application/vnd.3gpp.pic-bw-var"
+      },
+      {
+          "type": ".pwn",
+          "mime": "application/vnd.3m.post-it-notes"
+      },
+      {
+          "type": ".pya",
+          "mime": "audio/vnd.ms-playready.media.pya"
+      },
+      {
+          "type": ".pyv",
+          "mime": "video/vnd.ms-playready.media.pyv"
+      },
+      {
+          "type": ".qam",
+          "mime": "application/vnd.epson.quickanime"
+      },
+      {
+          "type": ".qbo",
+          "mime": "application/vnd.intu.qbo"
+      },
+      {
+          "type": ".qfx",
+          "mime": "application/vnd.intu.qfx"
+      },
+      {
+          "type": ".qps",
+          "mime": "application/vnd.publishare-delta-tree"
+      },
+      {
+          "type": ".qt",
+          "mime": "video/quicktime"
+      },
+      {
+          "type": ".qtl",
+          "mime": "application/x-quicktimeplayer"
+      },
+      {
+          "type": ".qxd",
+          "mime": "application/vnd.quark.quarkxpress"
+      },
+      {
+          "type": ".ra",
+          "mime": "audio/x-pn-realaudio"
+      },
+      {
+          "type": ".ram",
+          "mime": "audio/x-pn-realaudio"
+      },
+      {
+          "type": ".rar",
+          "mime": "application/x-rar-compressed"
+      },
+      {
+          "type": ".ras",
+          "mime": "image/x-cmu-raster"
+      },
+      {
+          "type": ".rcprofile",
+          "mime": "application/vnd.ipunplugged.rcprofile"
+      },
+      {
+          "type": ".rdf",
+          "mime": "application/rdf+xml"
+      },
+      {
+          "type": ".rdz",
+          "mime": "application/vnd.data-vision.rdz"
+      },
+      {
+          "type": ".rep",
+          "mime": "application/vnd.businessobjects"
+      },
+      {
+          "type": ".res",
+          "mime": "application/x-dtbresource+xml"
+      },
+      {
+          "type": ".rf",
+          "mime": "image/vnd.rn-realflash"
+      },
+      {
+          "type": ".rgb",
+          "mime": "image/x-rgb"
+      },
+      {
+          "type": ".rif",
+          "mime": "application/reginfo+xml"
+      },
+      {
+          "type": ".rip",
+          "mime": "audio/vnd.rip"
+      },
+      {
+          "type": ".rl",
+          "mime": "application/resource-lists+xml"
+      },
+      {
+          "type": ".rlc",
+          "mime": "image/vnd.fujixerox.edmics-rlc"
+      },
+      {
+          "type": ".rld",
+          "mime": "application/resource-lists-diff+xml"
+      },
+      {
+          "type": ".rm",
+          "mime": "application/vnd.rn-realmedia"
+      },
+      {
+          "type": ".rmi",
+          "mime": "audio/mid"
+      },
+      {
+          "type": ".rmp",
+          "mime": "audio/x-pn-realaudio-plugin"
+      },
+      {
+          "type": ".rms",
+          "mime": "application/vnd.jcp.javame.midlet-rms"
+      },
+      {
+          "type": ".rnc",
+          "mime": "application/relax-ng-compact-syntax"
+      },
+      {
+          "type": ".roff",
+          "mime": "application/x-troff"
+      },
+      {
+          "type": ".rp9",
+          "mime": "application/vnd.cloanto.rp9"
+      },
+      {
+          "type": ".rpm",
+          "mime": "audio/x-pn-realaudio-plugin"
+      },
+      {
+          "type": ".rpss",
+          "mime": "application/vnd.nokia.radio-presets"
+      },
+      {
+          "type": ".rpst",
+          "mime": "application/vnd.nokia.radio-preset"
+      },
+      {
+          "type": ".rq",
+          "mime": "application/sparql-query"
+      },
+      {
+          "type": ".rs",
+          "mime": "application/rls-services+xml"
+      },
+      {
+          "type": ".rsd",
+          "mime": "application/rsd+xml"
+      },
+      {
+          "type": ".rss",
+          "mime": "application/rss+xml"
+      },
+      {
+          "type": ".rtf",
+          "mime": "application/rtf"
+      },
+      {
+          "type": ".rtx",
+          "mime": "text/richtext"
+      },
+      {
+          "type": ".s",
+          "mime": "text/x-asm"
+      },
+      {
+          "type": ".saf",
+          "mime": "application/vnd.yamaha.smaf-audio"
+      },
+      {
+          "type": ".sbml",
+          "mime": "application/sbml+xml"
+      },
+      {
+          "type": ".sc",
+          "mime": "application/vnd.ibm.secure-container"
+      },
+      {
+          "type": ".scd",
+          "mime": "application/x-msschedule"
+      },
+      {
+          "type": ".scm",
+          "mime": "application/vnd.lotus-screencam"
+      },
+      {
+          "type": ".scq",
+          "mime": "application/scvp-cv-request"
+      },
+      {
+          "type": ".scs",
+          "mime": "application/scvp-cv-response"
+      },
+      {
+          "type": ".sct",
+          "mime": "text/scriptlet"
+      },
+      {
+          "type": ".scurl",
+          "mime": "text/vnd.curl.scurl"
+      },
+      {
+          "type": ".sda",
+          "mime": "application/vnd.stardivision.draw"
+      },
+      {
+          "type": ".sdc",
+          "mime": "application/vnd.stardivision.calc"
+      },
+      {
+          "type": ".sdd",
+          "mime": "application/vnd.stardivision.impress"
+      },
+      {
+          "type": ".sdkm",
+          "mime": "application/vnd.solent.sdkm+xml"
+      },
+      {
+          "type": ".sdp",
+          "mime": "application/sdp"
+      },
+      {
+          "type": ".sdw",
+          "mime": "application/vnd.stardivision.writer"
+      },
+      {
+          "type": ".sea",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".see",
+          "mime": "application/vnd.seemail"
+      },
+      {
+          "type": ".seed",
+          "mime": "application/vnd.fdsn.seed"
+      },
+      {
+          "type": ".sema",
+          "mime": "application/vnd.sema"
+      },
+      {
+          "type": ".semd",
+          "mime": "application/vnd.semd"
+      },
+      {
+          "type": ".semf",
+          "mime": "application/vnd.semf"
+      },
+      {
+          "type": ".ser",
+          "mime": "application/java-serialized-object"
+      },
+      {
+          "type": ".setpay",
+          "mime": "application/set-payment-initiation"
+      },
+      {
+          "type": ".setreg",
+          "mime": "application/set-registration-initiation"
+      },
+      {
+          "type": ".sfd-hdstx",
+          "mime": "application/vnd.hydrostatix.sof-data"
+      },
+      {
+          "type": ".sfs",
+          "mime": "application/vnd.spotfire.sfs"
+      },
+      {
+          "type": ".sgl",
+          "mime": "application/vnd.stardivision.writer-global"
+      },
+      {
+          "type": ".sgml",
+          "mime": "text/sgml"
+      },
+      {
+          "type": ".sh",
+          "mime": "application/x-sh"
+      },
+      {
+          "type": ".shar",
+          "mime": "application/x-shar"
+      },
+      {
+          "type": ".shf",
+          "mime": "application/shf+xml"
+      },
+      {
+          "type": ".sis",
+          "mime": "application/vnd.symbian.install"
+      },
+      {
+          "type": ".sit",
+          "mime": "application/x-stuffit"
+      },
+      {
+          "type": ".sitx",
+          "mime": "application/x-stuffitx"
+      },
+      {
+          "type": ".skp",
+          "mime": "application/vnd.koan"
+      },
+      {
+          "type": ".sldm",
+          "mime": "application/vnd.ms-powerpoint.slide.macroEnabled.12"
+      },
+      {
+          "type": ".sldx",
+          "mime": "application/vnd.openxmlformats-officedocument.presentationml.slide"
+      },
+      {
+          "type": ".slt",
+          "mime": "application/vnd.epson.salt"
+      },
+      {
+          "type": ".sm",
+          "mime": "application/vnd.stepmania.stepchart"
+      },
+      {
+          "type": ".smd",
+          "mime": "audio/x-smd"
+      },
+      {
+          "type": ".smf",
+          "mime": "application/vnd.stardivision.math"
+      },
+      {
+          "type": ".smi",
+          "mime": "application/smil+xml"
+      },
+      {
+          "type": ".smx",
+          "mime": "audio/x-smd"
+      },
+      {
+          "type": ".smz",
+          "mime": "audio/x-smd"
+      },
+      {
+          "type": ".snd",
+          "mime": "audio/basic"
+      },
+      {
+          "type": ".snf",
+          "mime": "application/x-font-snf"
+      },
+      {
+          "type": ".snp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".spc",
+          "mime": "application/x-pkcs7-certificates"
+      },
+      {
+          "type": ".spf",
+          "mime": "application/vnd.yamaha.smaf-phrase"
+      },
+      {
+          "type": ".spl",
+          "mime": "application/futuresplash"
+      },
+      {
+          "type": ".spot",
+          "mime": "text/vnd.in3d.spot"
+      },
+      {
+          "type": ".spp",
+          "mime": "application/scvp-vp-response"
+      },
+      {
+          "type": ".spq",
+          "mime": "application/scvp-vp-request"
+      },
+      {
+          "type": ".spx",
+          "mime": "audio/ogg"
+      },
+      {
+          "type": ".src",
+          "mime": "application/x-wais-source"
+      },
+      {
+          "type": ".sru",
+          "mime": "application/sru+xml"
+      },
+      {
+          "type": ".srx",
+          "mime": "application/sparql-results+xml"
+      },
+      {
+          "type": ".sse",
+          "mime": "application/vnd.kodak-descriptor"
+      },
+      {
+          "type": ".ssf",
+          "mime": "application/vnd.epson.ssf"
+      },
+      {
+          "type": ".ssm",
+          "mime": "application/streamingmedia"
+      },
+      {
+          "type": ".ssml",
+          "mime": "application/ssml+xml"
+      },
+      {
+          "type": ".sst",
+          "mime": "application/vnd.ms-pki.certstore"
+      },
+      {
+          "type": ".st",
+          "mime": "application/vnd.sailingtracker.track"
+      },
+      {
+          "type": ".stc",
+          "mime": "application/vnd.sun.xml.calc.template"
+      },
+      {
+          "type": ".std",
+          "mime": "application/vnd.sun.xml.draw.template"
+      },
+      {
+          "type": ".stf",
+          "mime": "application/vnd.wt.stf"
+      },
+      {
+          "type": ".sti",
+          "mime": "application/vnd.sun.xml.impress.template"
+      },
+      {
+          "type": ".stk",
+          "mime": "application/hyperstudio"
+      },
+      {
+          "type": ".stl",
+          "mime": "application/vnd.ms-pki.stl"
+      },
+      {
+          "type": ".str",
+          "mime": "application/vnd.pg.format"
+      },
+      {
+          "type": ".stw",
+          "mime": "application/vnd.sun.xml.writer.template"
+      },
+      {
+          "type": ".sub",
+          "mime": "image/vnd.dvb.subtitle"
+      },
+      {
+          "type": ".sus",
+          "mime": "application/vnd.sus-calendar"
+      },
+      {
+          "type": ".sv4cpio",
+          "mime": "application/x-sv4cpio"
+      },
+      {
+          "type": ".sv4crc",
+          "mime": "application/x-sv4crc"
+      },
+      {
+          "type": ".svc",
+          "mime": "application/vnd.dvb.service"
+      },
+      {
+          "type": ".svd",
+          "mime": "application/vnd.svd"
+      },
+      {
+          "type": ".svg",
+          "mime": "image/svg+xml"
+      },
+      {
+          "type": ".svgz",
+          "mime": "image/svg+xml"
+      },
+      {
+          "type": ".swf",
+          "mime": "application/x-shockwave-flash"
+      },
+      {
+          "type": ".swi",
+          "mime": "application/vnd.aristanetworks.swi"
+      },
+      {
+          "type": ".sxc",
+          "mime": "application/vnd.sun.xml.calc"
+      },
+      {
+          "type": ".sxd",
+          "mime": "application/vnd.sun.xml.draw"
+      },
+      {
+          "type": ".sxg",
+          "mime": "application/vnd.sun.xml.writer.global"
+      },
+      {
+          "type": ".sxi",
+          "mime": "application/vnd.sun.xml.impress"
+      },
+      {
+          "type": ".sxm",
+          "mime": "application/vnd.sun.xml.math"
+      },
+      {
+          "type": ".sxw",
+          "mime": "application/vnd.sun.xml.writer"
+      },
+      {
+          "type": ".t",
+          "mime": "application/x-troff"
+      },
+      {
+          "type": ".tao",
+          "mime": "application/vnd.tao.intent-module-archive"
+      },
+      {
+          "type": ".tar",
+          "mime": "application/x-tar"
+      },
+      {
+          "type": ".tcap",
+          "mime": "application/vnd.3gpp2.tcap"
+      },
+      {
+          "type": ".tcl",
+          "mime": "application/x-tcl"
+      },
+      {
+          "type": ".teacher",
+          "mime": "application/vnd.smart.teacher"
+      },
+      {
+          "type": ".tei",
+          "mime": "application/tei+xml"
+      },
+      {
+          "type": ".tex",
+          "mime": "application/x-tex"
+      },
+      {
+          "type": ".texi",
+          "mime": "application/x-texinfo"
+      },
+      {
+          "type": ".texinfo",
+          "mime": "application/x-texinfo"
+      },
+      {
+          "type": ".tfi",
+          "mime": "application/thraud+xml"
+      },
+      {
+          "type": ".tfm",
+          "mime": "application/x-tex-tfm"
+      },
+      {
+          "type": ".tgz",
+          "mime": "application/x-compressed"
+      },
+      {
+          "type": ".thmx",
+          "mime": "application/vnd.ms-officetheme"
+      },
+      {
+          "type": ".thn",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".tif",
+          "mime": "image/tiff"
+      },
+      {
+          "type": ".tif",
+          "mime": "image/tiff"
+      },
+      {
+          "type": ".tiff",
+          "mime": "image/tiff"
+      },
+      {
+          "type": ".tmo",
+          "mime": "application/vnd.tmobile-livetv"
+      },
+      {
+          "type": ".toc",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".torrent",
+          "mime": "application/x-bittorrent"
+      },
+      {
+          "type": ".tpl",
+          "mime": "application/vnd.groove-tool-template"
+      },
+      {
+          "type": ".tpt",
+          "mime": "application/vnd.trid.tpt"
+      },
+      {
+          "type": ".tr",
+          "mime": "application/x-troff"
+      },
+      {
+          "type": ".tra",
+          "mime": "application/vnd.trueapp"
+      },
+      {
+          "type": ".trm",
+          "mime": "application/x-msterminal"
+      },
+      {
+          "type": ".ts",
+          "mime": "video/mp2t"
+      },
+      {
+          "type": ".tsd",
+          "mime": "application/timestamped-data"
+      },
+      {
+          "type": ".tsv",
+          "mime": "text/tab-separated-values"
+      },
+      {
+          "type": ".ttf",
+          "mime": " font/ttf"
+      },
+      {
+          "type": ".ttl",
+          "mime": "text/turtle"
+      },
+      {
+          "type": ".tts",
+          "mime": "video/vnd.dlna.mpeg-tts"
+      },
+      {
+          "type": ".twd",
+          "mime": "application/vnd.simtech-mindmapper"
+      },
+      {
+          "type": ".txd",
+          "mime": "application/vnd.genomatix.tuxedo"
+      },
+      {
+          "type": ".txf",
+          "mime": "application/vnd.mobius.txf"
+      },
+      {
+          "type": ".txt",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".u32",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".ufd",
+          "mime": "application/vnd.ufdl"
+      },
+      {
+          "type": ".uls",
+          "mime": "text/iuls"
+      },
+      {
+          "type": ".umj",
+          "mime": "application/vnd.umajin"
+      },
+      {
+          "type": ".unityweb",
+          "mime": "application/vnd.unity"
+      },
+      {
+          "type": ".uoml",
+          "mime": "application/vnd.uoml+xml"
+      },
+      {
+          "type": ".uri",
+          "mime": "text/uri-list"
+      },
+      {
+          "type": ".ustar",
+          "mime": "application/x-ustar"
+      },
+      {
+          "type": ".utz",
+          "mime": "application/vnd.uiq.theme"
+      },
+      {
+          "type": ".uu",
+          "mime": "text/x-uuencode"
+      },
+      {
+          "type": ".uva",
+          "mime": "audio/vnd.dece.audio"
+      },
+      {
+          "type": ".uvh",
+          "mime": "video/vnd.dece.hd"
+      },
+      {
+          "type": ".uvi",
+          "mime": "image/vnd.dece.graphic"
+      },
+      {
+          "type": ".uvm",
+          "mime": "video/vnd.dece.mobile"
+      },
+      {
+          "type": ".uvp",
+          "mime": "video/vnd.dece.pd"
+      },
+      {
+          "type": ".uvs",
+          "mime": "video/vnd.dece.sd"
+      },
+      {
+          "type": ".uvu",
+          "mime": "video/vnd.uvvu.mp4"
+      },
+      {
+          "type": ".uvv",
+          "mime": "video/vnd.dece.video"
+      },
+      {
+          "type": ".vbs",
+          "mime": "text/vbscript"
+      },
+      {
+          "type": ".vcd",
+          "mime": "application/x-cdlink"
+      },
+      {
+          "type": ".vcf",
+          "mime": "text/x-vcard"
+      },
+      {
+          "type": ".vcg",
+          "mime": "application/vnd.groove-vcard"
+      },
+      {
+          "type": ".vcs",
+          "mime": "text/x-vcalendar"
+      },
+      {
+          "type": ".vcx",
+          "mime": "application/vnd.vcx"
+      },
+      {
+          "type": ".vdx",
+          "mime": "application/vnd.ms-visio.viewer"
+      },
+      {
+          "type": ".vis",
+          "mime": "application/vnd.visionary"
+      },
+      {
+          "type": ".viv",
+          "mime": "video/vnd.vivo"
+      },
+      {
+          "type": ".vml",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".vsd",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vsdx",
+          "mime": "application/vnd.visio2013"
+      },
+      {
+          "type": ".vsf",
+          "mime": "application/vnd.vsf"
+      },
+      {
+          "type": ".vss",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vst",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vsto",
+          "mime": "application/x-ms-vsto"
+      },
+      {
+          "type": ".vsw",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vsx",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vtu",
+          "mime": "model/vnd.vtu"
+      },
+      {
+          "type": ".vtx",
+          "mime": "application/vnd.visio"
+      },
+      {
+          "type": ".vxml",
+          "mime": "application/voicexml+xml"
+      },
+      {
+          "type": ".wad",
+          "mime": "application/x-doom"
+      },
+      {
+          "type": ".wasm",
+          "mime": "application/wasm"
+      },
+      {
+          "type": ".wav",
+          "mime": "audio/x-wav"
+      },
+      {
+          "type": ".wax",
+          "mime": "audio/x-ms-wax"
+      },
+      {
+          "type": ".wbmp",
+          "mime": "image/vnd.wap.wbmp"
+      },
+      {
+          "type": ".wbs",
+          "mime": "application/vnd.criticaltools.wbs+xml"
+      },
+      {
+          "type": ".wbxml",
+          "mime": "application/vnd.wap.wbxml"
+      },
+      {
+          "type": ".wcm",
+          "mime": "application/vnd.ms-works"
+      },
+      {
+          "type": ".wdb",
+          "mime": "application/vnd.ms-works"
+      },
+      {
+          "type": ".weba",
+          "mime": "audio/webm"
+      },
+      {
+          "type": ".webm",
+          "mime": "video/webm"
+      },
+      {
+          "type": ".webp",
+          "mime": "image/webp"
+      },
+      {
+          "type": ".wg",
+          "mime": "application/vnd.pmi.widget"
+      },
+      {
+          "type": ".wgt",
+          "mime": "application/widget"
+      },
+      {
+          "type": ".wks",
+          "mime": "application/vnd.ms-works"
+      },
+      {
+          "type": ".wm",
+          "mime": "video/x-ms-wm"
+      },
+      {
+          "type": ".wma",
+          "mime": "audio/x-ms-wma"
+      },
+      {
+          "type": ".wmd",
+          "mime": "application/x-ms-wmd"
+      },
+      {
+          "type": ".wmf",
+          "mime": "application/x-msmetafile"
+      },
+      {
+          "type": ".wml",
+          "mime": "text/vnd.wap.wml"
+      },
+      {
+          "type": ".wmlc",
+          "mime": "application/vnd.wap.wmlc"
+      },
+      {
+          "type": ".wmls",
+          "mime": "text/vnd.wap.wmlscript"
+      },
+      {
+          "type": ".wmlsc",
+          "mime": "application/vnd.wap.wmlscriptc"
+      },
+      {
+          "type": ".wmp",
+          "mime": "video/x-ms-wmp"
+      },
+      {
+          "type": ".wmv",
+          "mime": "video/x-ms-wmv"
+      },
+      {
+          "type": ".wmx",
+          "mime": "video/x-ms-wmx"
+      },
+      {
+          "type": ".wmz",
+          "mime": "application/x-ms-wmz"
+      },
+      {
+          "type": ".woff",
+          "mime": "font/x-woff"
+      },
+      {
+          "type": ".woff2",
+          "mime": "font/woff2"
+      },
+      {
+          "type": ".woff2",
+          "mime": "application/font-woff2"
+      },
+      {
+          "type": ".wpd",
+          "mime": "application/vnd.wordperfect"
+      },
+      {
+          "type": ".wpl",
+          "mime": "application/vnd.ms-wpl"
+      },
+      {
+          "type": ".wps",
+          "mime": "application/vnd.ms-works"
+      },
+      {
+          "type": ".wqd",
+          "mime": "application/vnd.wqd"
+      },
+      {
+          "type": ".wri",
+          "mime": "application/x-mswrite"
+      },
+      {
+          "type": ".wrl",
+          "mime": "x-world/x-vrml"
+      },
+      {
+          "type": ".wrz",
+          "mime": "x-world/x-vrml"
+      },
+      {
+          "type": ".wsdl",
+          "mime": "application/wsdl+xml"
+      },
+      {
+          "type": ".wspolicy",
+          "mime": "application/wspolicy+xml"
+      },
+      {
+          "type": ".wtb",
+          "mime": "application/vnd.webturbo"
+      },
+      {
+          "type": ".wtv",
+          "mime": "video/x-ms-wtv"
+      },
+      {
+          "type": ".wvx",
+          "mime": "video/x-ms-wvx"
+      },
+      {
+          "type": ".x",
+          "mime": "application/directx"
+      },
+      {
+          "type": ".x3d",
+          "mime": "application/vnd.hzn-3d-crossword"
+      },
+      {
+          "type": ".xaf",
+          "mime": "x-world/x-vrml"
+      },
+      {
+          "type": ".xaml",
+          "mime": "application/xaml+xml"
+      },
+      {
+          "type": ".xap",
+          "mime": "application/x-silverlight-app"
+      },
+      {
+          "type": ".xar",
+          "mime": "application/vnd.xara"
+      },
+      {
+          "type": ".xbap",
+          "mime": "application/x-ms-xbap"
+      },
+      {
+          "type": ".xbd",
+          "mime": "application/vnd.fujixerox.docuworks.binder"
+      },
+      {
+          "type": ".xbm",
+          "mime": "image/x-xbitmap"
+      },
+      {
+          "type": ".xdf",
+          "mime": "application/xcap-diff+xml"
+      },
+      {
+          "type": ".xdm",
+          "mime": "application/vnd.syncml.dm+xml"
+      },
+      {
+          "type": ".xdp",
+          "mime": "application/vnd.adobe.xdp+xml"
+      },
+      {
+          "type": ".xdr",
+          "mime": "text/plain"
+      },
+      {
+          "type": ".xdssc",
+          "mime": "application/dssc+xml"
+      },
+      {
+          "type": ".xdw",
+          "mime": "application/vnd.fujixerox.docuworks"
+      },
+      {
+          "type": ".xenc",
+          "mime": "application/xenc+xml"
+      },
+      {
+          "type": ".xer",
+          "mime": "application/patch-ops-error+xml"
+      },
+      {
+          "type": ".xfdf",
+          "mime": "application/vnd.adobe.xfdf"
+      },
+      {
+          "type": ".xfdl",
+          "mime": "application/vnd.xfdl"
+      },
+      {
+          "type": ".xht",
+          "mime": "application/xhtml+xml"
+      },
+      {
+          "type": ".xhtml",
+          "mime": "application/xhtml+xml"
+      },
+      {
+          "type": ".xif",
+          "mime": "image/vnd.xiff"
+      },
+      {
+          "type": ".xla",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xlam",
+          "mime": "application/vnd.ms-excel.addin.macroEnabled.12"
+      },
+      {
+          "type": ".xlc",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xlm",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xls",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xlsb",
+          "mime": "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
+      },
+      {
+          "type": ".xlsm",
+          "mime": "application/vnd.ms-excel.sheet.macroEnabled.12"
+      },
+      {
+          "type": ".xlsx",
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+          "type": ".xlt",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xltm",
+          "mime": "application/vnd.ms-excel.template.macroEnabled.12"
+      },
+      {
+          "type": ".xltx",
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+      },
+      {
+          "type": ".xlw",
+          "mime": "application/vnd.ms-excel"
+      },
+      {
+          "type": ".xml",
+          "mime": "application/rss+xml"
+      },
+      {
+          "type": ".xml",
+          "mime": "application/xml"
+      },
+      {
+          "type": ".xo",
+          "mime": "application/vnd.olpc-sugar"
+      },
+      {
+          "type": ".xof",
+          "mime": "x-world/x-vrml"
+      },
+      {
+          "type": ".xop",
+          "mime": "application/xop+xml"
+      },
+      {
+          "type": ".xpi",
+          "mime": "application/x-xpinstall"
+      },
+      {
+          "type": ".xpm",
+          "mime": "image/x-xpixmap"
+      },
+      {
+          "type": ".xpr",
+          "mime": "application/vnd.is-xpr"
+      },
+      {
+          "type": ".xps",
+          "mime": "application/vnd.ms-xpsdocument"
+      },
+      {
+          "type": ".xpw",
+          "mime": "application/vnd.intercon.formnet"
+      },
+      {
+          "type": ".xsd",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".xsf",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".xsl",
+          "mime": "text/xml"
+      },
+      {
+          "type": ".xslt",
+          "mime": "application/xslt+xml"
+      },
+      {
+          "type": ".xsm",
+          "mime": "application/vnd.syncml+xml"
+      },
+      {
+          "type": ".xsn",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".xspf",
+          "mime": "application/xspf+xml"
+      },
+      {
+          "type": ".xtp",
+          "mime": "application/octet-stream"
+      },
+      {
+          "type": ".xul",
+          "mime": "application/vnd.mozilla.xul+xml"
+      },
+      {
+          "type": ".xwd",
+          "mime": "image/x-xwindowdump"
+      },
+      {
+          "type": ".xyz",
+          "mime": "chemical/x-xyz"
+      },
+      {
+          "type": ".yaml",
+          "mime": "text/yaml"
+      },
+      {
+          "type": ".yang",
+          "mime": "application/yang"
+      },
+      {
+          "type": ".yin",
+          "mime": "application/yin+xml"
+      },
+      {
+          "type": ".z",
+          "mime": "application/x-compress"
+      },
+      {
+          "type": ".zaz",
+          "mime": "application/vnd.zzazz.deck+xml"
+      },
+      {
+          "type": ".zip",
+          "mime": "application/x-zip-compressed"
+      },
+      {
+          "type": ".zir",
+          "mime": "application/vnd.zul"
+      },
+      {
+          "type": ".zmm",
+          "mime": "application/vnd.handheld-entertainment+xml"
+      }
   ]
 }

@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;net5.0;netcoreapp3.1;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.0;netstandard2.1</TargetFrameworks>
     <Copyright>Copyright (c) 2021 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
-    <Version>1.0.24</Version>
+    <Version>1.0.25</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
     <AssemblyVersion>1.0.24.1</AssemblyVersion>
