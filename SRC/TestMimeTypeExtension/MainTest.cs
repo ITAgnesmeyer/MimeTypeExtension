@@ -43,7 +43,7 @@ namespace TestMimeTypeExtension
         }
 
         [TestMethod]
-        public void TestWasemExtension()
+        public void TestWasmExtension()
         {
             FileInfo fi = new FileInfo("test.wasm");
             string mimeType = fi.MimeType();
@@ -56,6 +56,40 @@ namespace TestMimeTypeExtension
             FileInfo fi = new FileInfo("test.notfound");
             string mimeType = fi.MimeTypeOrDefault();
             Assert.AreEqual(mimeType, "application/octet-stream", "Cannot find default");
+        }
+
+        [TestMethod]
+        public void TestAddOrUpdateMime()
+        {
+            FileInfo fi = new FileInfo("test.aa");
+            string orgMime = fi.MimeTypeOrDefault();
+            Assert.AreEqual(orgMime, "application/octet-stream");
+            var b =MimeTypeExtension.MimeTypeExtension.AddOrUpdateMimeType(".aa", "audio/audible");
+            Assert.IsTrue(b);
+            string newMime = fi.MimeTypeOrDefault();
+            Assert.AreNotEqual(orgMime, newMime);
+            Assert.AreEqual(newMime, "audio/audible");
+            Assert.ThrowsException<ArgumentNullException>(() =>
+            {
+                MimeTypeExtension.MimeTypeExtension.AddOrUpdateMimeType(null, "audio/audible");
+            });
+
+            Assert.ThrowsException<ArgumentNullException>(() =>
+            {
+                MimeTypeExtension.MimeTypeExtension.AddOrUpdateMimeType(".aa", null);
+            });
+
+            Assert.ThrowsException<ArgumentException>(() =>
+            {
+                MimeTypeExtension.MimeTypeExtension.AddOrUpdateMimeType("aa", "audio/audible");
+            });
+
+            Assert.ThrowsException<ArgumentException>(() =>
+            {
+                MimeTypeExtension.MimeTypeExtension.AddOrUpdateMimeType(".aa", "application");
+            });
+
+
         }
         
     }

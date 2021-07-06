@@ -36,9 +36,6 @@
     <Reference Include="EasyXMLSerializer, Version=1.0.9.0, Culture=neutral, PublicKeyToken=2deb65490f96ad55, processorArchitecture=MSIL">
       <HintPath>..\packages\EasyXMLSerializer.1.0.9\lib\net472\EasyXMLSerializer.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +51,9 @@
     </Compile>
     <Compile Include="..\MimeTypeExtension\MimeTypeList.cs">
       <Link>MimeTypeList.cs</Link>
+    </Compile>
+    <Compile Include="..\MimeTypeExtension\ZeroDepJson.cs">
+      <Link>ZeroDepJson.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
+using System.Net.Sockets;
 using System.Reflection;
 using ZeroDep;
 
@@ -39,7 +41,36 @@ namespace MimeTypeExtension
                     jsonString); //Newtonsoft.Json.JsonConvert.DeserializeObject<MimeTypeList>(jsonString);
 
         }
+        /// <summary>
+        /// You can Add or update your List of MIMES
+        /// </summary>
+        /// <param name="fileExtension">File extension eg. ".exe". The extension must start with  "."</param>
+        /// <param name="mime">MIME Type string eg. "application/octet-stream". The string must contain "/"</param>
+        /// <returns></returns>
+        public static bool AddOrUpdateMimeType(string fileExtension, string mime)
+        {
+            if (string.IsNullOrEmpty(fileExtension))
+                throw new ArgumentNullException(nameof(fileExtension),"fileExtension cannot be null");
 
+            if (string.IsNullOrEmpty(mime))
+                throw new ArgumentNullException(nameof(mime), "mime cannot be null");
+            if (!fileExtension.StartsWith("."))
+                throw new ArgumentException("fileExtension must start with a \".\"", nameof(fileExtension));
+
+            if (!mime.Contains("/"))
+                throw new ArgumentException("MIME must contain \"/\"", nameof(mime));
+
+            if (_mimeTypesList.MimeTypes.Any(x => x.Type == fileExtension))
+            {
+                var mimeType = _mimeTypesList.MimeTypes.Find(x => x.Type == fileExtension);
+                if (mimeType == null) return false;
+                mimeType.Mime = mime;
+                return true;
+
+            }
+            _mimeTypesList.MimeTypes.Add(new MimeType(){Type = fileExtension, Mime = mime});
+            return true;
+        }
         /// <summary>
         /// Get MimeType from URL
         /// </summary>
