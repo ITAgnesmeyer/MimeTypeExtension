@@ -19,6 +19,14 @@ Console.WriteLine(mimeType);
 ---
 [try it out with Fiddler](https://dotnetfiddle.net/Widget/q4oWyG)
 
+For whom the currently 894 MIME types are not enough. Can store own MIME types. 
+The static function AddOrUpdateMimeType is now available for this. 
+With this function you can change existing MIME types or add new ones. 
+
+```c#
+var result = MimeTypeExtension.AddOrUpdateMimeType(".aa", "audio/audible");
+```
+
 ## Supported MIME-Types
 
 https://github.com/ITAgnesmeyer/MimeTypeExtension/blob/master/SRC/MimeTypeExtension/otherTypes.json
