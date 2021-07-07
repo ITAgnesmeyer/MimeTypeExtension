@@ -5051,7 +5051,7 @@ namespace ZeroDep
     /// Provides options for JSON.
     /// </summary>
     [AttributeUsage(AttributeTargets.All)]
-    public sealed class JsonAttribute : Attribute
+    internal sealed class JsonAttribute : Attribute
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="JsonAttribute"/> class.
