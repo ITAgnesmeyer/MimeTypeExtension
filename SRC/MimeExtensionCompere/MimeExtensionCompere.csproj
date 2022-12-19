@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EasyXMLSerializer, Version=1.0.9.0, Culture=neutral, PublicKeyToken=2deb65490f96ad55, processorArchitecture=MSIL">
-      <HintPath>..\packages\EasyXMLSerializer.1.0.9\lib\net472\EasyXMLSerializer.dll</HintPath>
+    <Reference Include="EasyXMLSerializer, Version=2.0.4.0, Culture=neutral, PublicKeyToken=2deb65490f96ad55, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyXMLSerializer.2.0.4\lib\net472\EasyXMLSerializer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
