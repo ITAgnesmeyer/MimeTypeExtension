@@ -1,13 +1,13 @@
 ﻿
-using ZeroDep;
+//using ZeroDep;
 namespace MimeTypeExtension
 {
     internal class MimeType
     {
-        [Json("type")]
+        //[Json("type")]
         public string Type { get; set; }
 
-        [Json("mime")]
+        //[Json("mime")]
         public string Mime { get; set; }
     }
 }

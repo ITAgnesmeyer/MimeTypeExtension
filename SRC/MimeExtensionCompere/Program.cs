@@ -4,7 +4,7 @@ using System.Linq;
 using EasyXMLSerializer;
 using MimeTypeExtension;
 
-using ZeroDep;
+//using ZeroDep;
 
 namespace MimeExtensionCompere
 {
@@ -16,7 +16,7 @@ namespace MimeExtensionCompere
 
             StaticContent context = serTool.ReadXmlFile<StaticContent>();
             string allString = File.ReadAllText("otherTypes.json");
-            MimeTypeList list = Json.Deserialize<MimeTypeList>(allString);
+            MimeTypeList list = null;//Json.Deserialize<MimeTypeList>(allString);
 
             foreach (MimeMap mimeMap in context.MimeMap)
             {
@@ -43,7 +43,7 @@ namespace MimeExtensionCompere
             var  olist = ol.ToList();
             list.MimeTypes = olist;
 
-            string output = Json.Serialize(list);
+            string output = string.Empty;//Json.Serialize(list);
             File.WriteAllText("output.json", output);
 
             Console.ReadLine();
