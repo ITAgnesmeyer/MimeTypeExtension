@@ -1,10 +1,6 @@
 # MimeTypeExtension
 Extension for FileInfo. Returns the matching MIME type of a file.
 
-# Json Serialization
-Internally, the JSON resources are serialized with the following great tool:
-https://github.com/smourier/ZeroDepJson 
-
 # NuGet:
 https://www.nuget.org/packages/MimeTypeExtension
 
