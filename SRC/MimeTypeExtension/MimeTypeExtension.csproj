@@ -3,10 +3,10 @@
     <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net10.0</TargetFrameworks>
     <Copyright>Copyright (c) 2025 Dipl.-Ing.(FH) Guido Agnesmeyer</Copyright>
     <Description>Extension for FileInfo to get the responding MIME-Type</Description>
-    <Version>1.0.31</Version>
+    <Version>1.0.32</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</PackageProjectUrl>
-    <AssemblyVersion>1.0.31.1</AssemblyVersion>
+    <AssemblyVersion>1.0.32.1</AssemblyVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/ITAgnesmeyer/MimeTypeExtension</RepositoryUrl>
@@ -20,7 +20,7 @@
     <AssemblyOriginatorKeyFile>MimeTypeSign.snk</AssemblyOriginatorKeyFile>
     <NeutralLanguage />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <FileVersion>1.0.31.0</FileVersion>
+    <FileVersion>1.0.32.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
