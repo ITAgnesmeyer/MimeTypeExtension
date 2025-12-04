@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <OutputType>Exe</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -11,6 +11,7 @@
     <Compile Include="..\MimeTypeExtension\MimeTypeList.cs">
       <Link>MimeTypeList.cs</Link>
     </Compile>
+    <PackageReference Include="EasyXMLSerializer" Version="2.0.4" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\MimeTypeExtension\otherTypes.json">
@@ -22,10 +23,5 @@
     <Content Include="Default.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="EasyXMLSerializer" Version="2.0.4" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
 </Project>

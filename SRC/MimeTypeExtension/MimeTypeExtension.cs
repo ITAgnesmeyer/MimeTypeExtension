@@ -14,7 +14,7 @@ namespace MimeTypeExtension
     /// </summary>
     public static class MimeTypeExtension
     {
-        private static MimeTypeList _mimeTypesList; 
+        private static MimeTypeList _mimeTypesList;
         static MimeTypeExtension()
         {
             FillTypeList();
@@ -418,7 +418,14 @@ namespace MimeTypeExtension
                     new MimeType{Type = ".mcurl",Mime = "text/vnd.curl.mcurl"},
                     new MimeType{Type = ".mdb",Mime = "application/x-msaccess"},
                     new MimeType{Type = ".mdi",Mime = "image/vnd.ms-modi"},
+                    //Markdown - Files
+                    new MimeType{Type = ".md", Mime = "text/markdown" },
+                    new MimeType{Type = ".markdown", Mime = "text/markdown" },
+                    new MimeType{Type = ".mdown", Mime = "text/markdown" },
+                    new MimeType{Type = ".mkd", Mime = "text/markdown" },
+                    new MimeType{Type = ".mkdn", Mime = "text/markdown" },
                     new MimeType{Type = ".mdp",Mime = "application/octet-stream"},
+                    //End Markdown - Files
                     new MimeType{Type = ".me",Mime = "application/x-troff-me"},
                     new MimeType{Type = ".meta4",Mime = "application/metalink4+xml"},
                     new MimeType{Type = ".mets",Mime = "application/mets+xml"},
@@ -957,7 +964,7 @@ namespace MimeTypeExtension
         public static bool AddOrUpdateMimeType(string fileExtension, string mime)
         {
             if (string.IsNullOrEmpty(fileExtension))
-                throw new ArgumentNullException(nameof(fileExtension),"fileExtension cannot be null");
+                throw new ArgumentNullException(nameof(fileExtension), "fileExtension cannot be null");
 
             if (string.IsNullOrEmpty(mime))
                 throw new ArgumentNullException(nameof(mime), "mime cannot be null");
@@ -975,7 +982,7 @@ namespace MimeTypeExtension
                 return true;
 
             }
-            _mimeTypesList.MimeTypes.Add(new MimeType(){Type = fileExtension, Mime = mime});
+            _mimeTypesList.MimeTypes.Add(new MimeType() { Type = fileExtension, Mime = mime });
             return true;
         }
         /// <summary>
@@ -1011,9 +1018,9 @@ namespace MimeTypeExtension
         /// <returns>Returns the MIME-Type eg. Image/jpg</returns>
         public static string MimeType(this FileInfo input)
         {
-           string extension = input.Extension;
-           var mimeType = _mimeTypesList.MimeTypes.Find(x=> x.Type == extension);
-            if(mimeType == null)
+            string extension = input.Extension;
+            var mimeType = _mimeTypesList.MimeTypes.Find(x => x.Type == extension);
+            if (mimeType == null)
                 return "";
             return mimeType.Mime;
         }
